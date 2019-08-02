@@ -702,6 +702,12 @@ An open source project that includes a family of Eclipse plug-ins and tools for 
 * Repositories: https://github.com/gnu-mcu-eclipse
 * Binary distribution: https://github.com/gnu-mcu-eclipse/org.eclipse.epp.packages/releases/
 
+# Security
+
+Name | Links | License | Maintainers
+---- | ----- | ------- | -----------
+Hex Five Security | [SDK](https://github.com/hex-five/multizone-sdk) |	Proprietary	| [Hex Five Security Inc.](www.hex-five.com)
+
 # Help Wanted
 
 * V8
