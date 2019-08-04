@@ -13,6 +13,7 @@ to the list and fix inaccuracies.
 * [Compilers and runtimes for other languages](#compilers-and-runtimes-for-other-languages)
 * [Forth kernels](#forth-kernels)
 * [IDEs](#ides)
+* [Security](#security)
 
 **We would like to enlist community help for the software ports in the [Help Wanted](#help-wanted) section.**
 
