@@ -141,75 +141,16 @@ A binary distribution of OpenOCD with support for RISC-V.
 
 # C compilers and libraries
 
-## GCC
 
-* Maintainer(s): Andrew Waterman (SiFive), Palmer Dabbelt (SiFive), Jim Wilson (SiFive), Kito Cheng (Andes)
-* Version: 7.1
-* Upstreaming status: Upstream as of 7.1 release
-* Future work:
-* RISC-V repository: https://github.com/riscv/riscv-gcc
-* Upstream repository:
-  https://gcc.gnu.org/viewcvs/gcc/trunk/
-  https://sourceware.org/git/gitweb.cgi?p=binutils-gdb.git (Git mirror)
-* Privileged Spec: 1.9.1
-* User Spec: 2.0
-* ABI:
-
-## GNU MCU Eclipse RISC-V Embedded GCC (riscv-none-embed-gcc)
-
-A binary distribution of the RISC-V toolchain, intended for bare-metal embedded applications.
-
-* Maintainer(s): Liviu Ionescu
-* Web: https://gnu-mcu-eclipse.github.io/toolchain/riscv/
-* Repository: https://github.com/gnu-mcu-eclipse/riscv-none-gcc
-* Build: https://github.com/gnu-mcu-eclipse/riscv-none-gcc-build
-* Binary package installer: https://www.npmjs.com/package/@gnu-mcu-eclipse/riscv-none-gcc 
-
-## clang
-
-## CompCert
-
-* Maintainer(s): Xavier Leroy
-* Version: 3.1
-* Upstreaming status: RISC-V support is upstream as of 3.1
-* Upstream repository: https://github.com/AbsInt/CompCert.git
-
-## Glibc ##
-
-* Maintainer(s): Palmer Dabbelt (SiFive), Andrew Waterman (SiFive), DJ Delorie (Red Hat), Darius Rad (Bluespec)
-* Version: 2.27
-* Status: Upstream, RISC-V support available starting in 2.27
-* Future work:
-* RISC-V repository: https://github.com/riscv/riscv-glibc
-* Upstream repository: https://sourceware.org/git/?p=glibc.git
-* Privileged Spec:
-* User Spec: 2.0
-* ABI:
-
-## Newlib
-
-* Maintainer(s): Kito Cheng (Andes)
-* Version: 2.5.0
-* Status: Upstream, RISC-V support available starting in 2.5.0
-* Future work: Prepare patches for review.
-* RISC-V repository: https://github.com/riscv/riscv-newlib
-* Upstream repository: git://sourceware.org/git/newlib-cygwin.git
-* Privileged Spec:
-* User Spec: 2.0
-* ABI:
-
-## Musl ##
-
-* Maintainer(s):
-* Version:
-* Status:
-* Upstreaming status:
-* Future work:
-* RISC-V repository:
-* Upstream repository:
-* Privileged Spec:
-* User Spec: 2.0
-* ABI:
+Name | Links | License | Maintainers
+---- | ----- | ------- | -----------
+GCC	| [Upstream](https://gcc.gnu.org/viewcvs/gcc/trunk/), [RISC-V repository](https://github.com/riscv/riscv-gcc) | GPL	| Andrew Waterman (SiFive), Palmer Dabbelt (SiFive), Jim Wilson (SiFive), Kito Cheng (Andes)
+GNU MCU Eclipse RISC-V Embedded GCC (riscv-non-embed-gcc)	| [Web](https://gnu-mcu-eclipse.github.io/toolchain/riscv/), [Repository](https://github.com/gnu-mcu-eclipse/riscv-none-gcc), [Build](https://github.com/gnu-mcu-eclipse/riscv-none-gcc-build), [Binary package installer](https://www.npmjs.com/package/@gnu-mcu-eclipse/riscv-none-gcc)	| Eclipse Public License |	Liviu lonescu
+clang	| -	| -	| -
+CompCert	| [Upstream](https://github.com/AbsInt/CompCert.git)	| INRIA Non-Commercial License Agreement	| Xavier Leroy
+Glibc	| [Upstream](https://sourceware.org/git/?p=glibc.git), [RISC-V repository](https://github.com/riscv/riscv-glibc) |	GPL |	Palmer Dabbelt (SiFive), Andrew Waterman (SiFive), DJ Delorie (Red Hat), Darius Rad(Bluespec)
+Newlib	| [Upstream](http://cygwin.com/git/gitweb.cgi?p=newlib-cygwin.git), [RISC-V repository](https://github.com/riscv/riscv-newlib)	| GPL	| Kito Cheng (Andes)
+Musl	| -	| - | -
 
 # Boot loaders and monitors
 
