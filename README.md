@@ -8,8 +8,7 @@ to the list and fix inaccuracies.
 * [Debugging](#debugging)
 * [C compilers and libraries](#c-compilers-and-libraries)
 * [Boot loaders and monitors](#boot-loaders-and-monitors)
-* [Kernels](#kernels)
-* [Operating systems](#operating-systems)
+* [OS and OS kernels](#os-and-os-kernels)
 * [Compilers and runtimes for other languages](#compilers-and-runtimes-for-other-languages)
 * [IDEs](#ides)
 * [Security](#security)
@@ -210,9 +209,9 @@ https://riscv.org/wp-content/uploads/2016/01/Tues1415-RISC-V-and-UEFI.pdf
 * User Spec:
 * ABI:
 
-# Kernels
+# OS and OS kernels
 
-## Linux Kernel ##
+## Linux Kernel
 
 * Maintainer(s): Andrew Waterman (SiFive), Albert Ou (SiFive), Palmer Dabbelt (SiFive)
 * Version: 4.15
@@ -302,9 +301,7 @@ https://riscv.org/wp-content/uploads/2016/01/Tues1415-RISC-V-and-UEFI.pdf
 * ABI:
 * Links: http://docs.zephyrproject.org/boards/riscv32/index.html
 
-# Operating systems
-
-## Fedora ##
+## Fedora
 
 * Maintainer(s): Richard WM Jones, Stefan O’Rear, David Abdurachmanov
 * Version: 25
@@ -318,7 +315,7 @@ https://riscv.org/wp-content/uploads/2016/01/Tues1415-RISC-V-and-UEFI.pdf
 * ABI: ~ September 2016 (not gcc-7)
 * Links: http://fedoraproject.org/wiki/Architectures/RISC-V
 
-## Debian ##
+## Debian
 
 * Maintainer(s): Manuel A. Fernandez Montecelo
 * Version: unstable (sid)
@@ -336,7 +333,7 @@ https://riscv.org/wp-content/uploads/2016/01/Tues1415-RISC-V-and-UEFI.pdf
     * https://content.riscv.org/wp-content/uploads/2016/07/Wed1115_Working_Towards_a_Debian_RISC-V_Port.pdf
     * https://people.debian.org/~mafm/posts/2017/20170422_debian-gnulinux-port-for-risc-v-64-bit-riscv64/
 
-## openSUSE ##
+## openSUSE
 
 * Maintainer(s): Andreas Schwab (SUSE)
 * Version: Tumbleweed
@@ -350,7 +347,8 @@ https://riscv.org/wp-content/uploads/2016/01/Tues1415-RISC-V-and-UEFI.pdf
 * ABI:
 * Links: https://en.opensuse.org/openSUSE:RISC-V
 
-## OpenMandriva ##
+## OpenMandriva
+
 * Maintainer(s): Bernhard "Bero" Rosenkränzer (bero at lindev dot ch)
 * Version: cooker (AKA master)
 * Status: Core packages built, RISC-V added to build server for all new packages. Currently building with gcc and ld.bfd (where OpenMandriva on other architectures defaults to clang and ld.gold). Package set not yet complete.
@@ -363,7 +361,7 @@ https://riscv.org/wp-content/uploads/2016/01/Tues1415-RISC-V-and-UEFI.pdf
 * ABI: lp64d, building with -march=rv64imafdc (ports to other subarches may happen in the future)
 * Links: http://openmandriva.org/ http://abf-downloads.openmandriva.org/cooker/repository/riscv64/
 
-## Yocto Project/OpenEmbedded ##
+## Yocto Project/OpenEmbedded
 
 * Maintainer(s): Khem Raj
 * Version: master
@@ -376,7 +374,7 @@ https://riscv.org/wp-content/uploads/2016/01/Tues1415-RISC-V-and-UEFI.pdf
 * User Spec: 2.0
 * ABI:
 
-## Poky ##
+## Poky
 
 * Maintainer(s): Martin Maas (University of California, Berkeley)
 * Version: master branch as of Oct 13, 2016.
@@ -389,7 +387,7 @@ https://riscv.org/wp-content/uploads/2016/01/Tues1415-RISC-V-and-UEFI.pdf
 * User Spec: 2.0
 * ABI:
 
-## Gentoo ##
+## Gentoo
 
 * Maintainer(s): Palmer Dabbelt (University of California, Berkeley)
 * Version:
@@ -402,7 +400,7 @@ https://riscv.org/wp-content/uploads/2016/01/Tues1415-RISC-V-and-UEFI.pdf
 * User Spec: 2.0
 * ABI:
 
-## Parabola GNU/Linux-libre ##
+## Parabola GNU/Linux-libre
 
 * Maintainer(s): Andreas Grapentin (University of Potsdam, HPI)
 * Version: rolling
@@ -417,7 +415,7 @@ https://riscv.org/wp-content/uploads/2016/01/Tues1415-RISC-V-and-UEFI.pdf
 * Links:
     * https://parabola.nu
 
-## OpenWrt ##
+## OpenWrt
 
 * Maintainer(s): Zoltan Herpai 
 * Version: snapshots/trunk
@@ -431,7 +429,7 @@ https://riscv.org/wp-content/uploads/2016/01/Tues1415-RISC-V-and-UEFI.pdf
 * ABI:
 * Links: http://openwrt.uid0.hu (binary repository)
 
-## januslinux ##
+## januslinux
 
 * Maintainer(s): nee-san
 * Version: master
@@ -444,8 +442,6 @@ https://riscv.org/wp-content/uploads/2016/01/Tues1415-RISC-V-and-UEFI.pdf
 * User Spec: 2.2
 * ABI:
 * Links:
-
-## Busybox
 
 ## Buildroot
 
@@ -491,7 +487,6 @@ https://github.com/jsonn/src (Git Mirror)
 * ABI:
 
 # Compilers and runtimes for other languages
-
 
 Name | Links | License | Maintainers
 ---- | ----- | ------- | -----------
