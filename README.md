@@ -691,15 +691,10 @@ https://github.com/jsonn/src (Git Mirror)
 
 # IDEs
 
-## GNU MCU Eclipse
+Name | Links | License | Maintainers
+---- | ----- | ------- | -----------
+GNU MCU Eclipse | [Website](https://gnu-mcu-eclipse.github.io), [Repositories](https://github.com/gnu-mcu-eclipse), [Binary distribution](https://github.com/gnu-mcu-eclipse/org.eclipse.epp.packages/releases/) |	EPL-1.0 / various	| Liviu Ionescu
 
-An open source project that includes a family of Eclipse plug-ins and tools for multi-platform embedded development, based on GNU toolchains; includes support for RISC-V.
-
-* Maintainer(s): Liviu Ionescu
-* Status: stable
-* Web: https://gnu-mcu-eclipse.github.io
-* Repositories: https://github.com/gnu-mcu-eclipse
-* Binary distribution: https://github.com/gnu-mcu-eclipse/org.eclipse.epp.packages/releases/
 
 # Security
 
