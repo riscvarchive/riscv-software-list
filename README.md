@@ -11,7 +11,6 @@ to the list and fix inaccuracies.
 * [Kernels](#kernels)
 * [Operating systems](#operating-systems)
 * [Compilers and runtimes for other languages](#compilers-and-runtimes-for-other-languages)
-* [Forth kernels](#forth-kernels)
 * [IDEs](#ides)
 * [Security](#security)
 
