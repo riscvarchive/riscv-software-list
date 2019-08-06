@@ -551,142 +551,21 @@ https://github.com/jsonn/src (Git Mirror)
 
 # Compilers and runtimes for other languages
 
-## Go
 
-* Maintainer(s): Benjamin Barenblat and Michael Pratt (Google), Stef O'Rear
-* Version: HEAD
-* Status: bootstrapped and passes tests, still missing cgo-related functionality
-* Upstreaming status: likely in 2017
-* Future work: cgo and toolchain integration
-* RISC-V repository: https://github.com/riscv/riscv-go, https://github.com/sorear/riscv-go
-* Upstream repository: https://github.com/golang/go
-* Privileged Spec: N/A
-* User Spec: 2.2
-* ABI: N/A due to no C integration
-
-## OCaml
-
-* Maintainer(s): Nicolás Ojeda Bär
-* Version: 4.06.1
-* Status:
-* Upstreaming status: maybe 2018
-* Future work:
-* RISC-V repository: https://github.com/nojb/riscv-ocaml
-* Upstream repository: https://github.com/ocaml/ocaml
-* Privileged Spec:
-* User Spec: 2.0
-* ABI:
-
-## Maxine VM (Java Virtual Machine)
-
-* Maintainer(s): Maxine team
-* Version: 2.7.0 (?)
-* Status:
-* Upstreaming status: upstream (?)
-* Future work:
-* RISC-V repository:
-* Upstream repository: https://github.com/beehive-lab/Maxine-VM
-* Privileged Spec:
-* User Spec:
-* ABI:
-
-## Jikes RVM (Java Virtual Machine)
-
-* Maintainer(s): Martin Maas (University of California, Berkeley)
-* Version:
-* Status:
-* Upstreaming status:
-* Future work:
-* RISC-V repository: Not yet public
-* Upstream repository: https://github.com/JikesRVM/JikesRVM
-* Privileged Spec:
-* User Spec: 2.0
-* ABI:
-
-## OpenJDK/HotSpot (Java Virtual Machine)
-
-* Maintainer(s): Alexey Baturo, Michael Knyszek, Martin Maas
-* contact seanhalle at intensivate dot com to join the porting effort
-* Version:
-* Status: Interpreter near completion (Oct 1, 2018)
-* Upstreaming status:
-* Future work: Modify MIPS backend code generator to emit RISC-V instructions
-* RISC-V repository: contact Sean Halle at Intensivate to be added
-* Upstream repository:
-* Privileged Spec:
-* User Spec: 2.0
-* ABI:
-
-## Free Pascal
-
-* Maintainer(s): Jeppe Johansen and others
-* Version: trunk
-* Status: supports most constructs of RV64IMAFDC but lacks hard float calling convention support
-* Upstreaming status: integrated in trunk september 2018
-* Future work: ABI work, optimizations, bug fixes, and full RV32 support
-* Upstream repository: https://svn.freepascal.org/cgi-bin/viewvc.cgi/trunk/
-* Privileged Spec: 1.9.1
-* User Spec: 2.2
-* ABI: Integer calling convention only
-
-## Nim
-
-* Maintainer(s): Andreas Rumpf and others
-* Version: 0.18.1
-* Status: Initial support added
-* RISC-V repository: same as upstream
-* Upstream repository: https://nim-lang.org/
-
-## Ada (GNAT)
-
-* Maintainer(s): AdaCore
-* Website: http://adacore.com
-* Version: GNAT Community 18, GNAT pro 19
-* Status: actively maintained, fully open source, with commercial support
-* Upstreaming status: upstream
-* Upstream repository: https://gcc.gnu.org/viewcvs/gcc/trunk/
-
-## Rust
-
-* Maintainer(s): Rust Project
-* Website: https://www.rust-lang.org/
-* Version: 1.30.0
-* Upstreaming status: upstream
-* Upstream repository: https://github.com/rust-lang/rust/
-
-## muForth
-
-* Maintainer(s): David Frech
-* Version:
-* Status:
-* Upstreaming status: N/A
-* Future work:
-* RISC-V repository: N/A
-* Upstream repository: https://github.com/nimblemachines/muforth
-* Privileged Spec:
-* User Spec:
-* ABI: N/A
-
-## lbForth
-
-* Maintainer(s): Lars Brinkhoff
-* Version:
-* Status:
-* Upstreaming status: N/A
-* Future work:
-* RISC-V repository: N/A
-* Upstream repository: https://github.com/larsbrinkhoff/lbForth
-* Privileged Spec:
-* User Spec: 2.0
-* ABI: N/A
-
-## Mecrisp-Quintus Forth kernel
-
-* Maintainer(s): Matthias Koch
-* Version: 0.4
-* Status: Experimental
-* Upstream repository: http://mecrisp.sourceforge.net/
-* Architecture: RV32IM
+Name | Links | License | Maintainers
+---- | ----- | ------- | -----------
+Go	| [Upstream](https://github.com/golang/go), [RISC-V repository](https://github.com/riscv/riscv-go), [Stef's fork](https://github.com/sorear/golang-go) | BSD 3-clause	| Benjamin Barenblat (Google), Michael Pratt (Google), Stef O'Rear
+Ocaml	| [Upstream](https://github.com/ocaml/ocaml), [RISC-V repository](https://github.com/nojb/riscv-ocaml)	| LGPL	| Nicolás Ojeda Bär
+Maxine VM (Java Virtual Machine)	| [Upstream](https://github.com/beehive-lab/Maxine-VM)	| GPL	| Maxine team
+Jikes RVM (Java Virtual Machine)	| [Upstream](https://github.com/JikesRVM/JikesRVM)	| Eclipse Public License (EPL)	| Martin Maas (University of California, Berkeley)
+OpenJDK/HotSpot (Java Virtual Machine)	| ?	| ?	| Alexey Baturo, Michael Knysnek, Martin Maas
+Free Pascal	| [Upstream](https://svn.freepascal.org/cgi-bin/viewvc.cgi/trunk/)	| ?	| Jeppe Johansen and others
+Nim	| [Upstream](https://nim-lang.org/)	| MIT	| Andreas Rumpf and others
+Ada (GNAT)	| [Upstream](https://gcc.gnu.org/viewcvs/gcc/trunk/)	| Proprietary	| [AdaCore](http://adacore.com)
+Rust	| [Upstream](https://github.com/rust-lang/rust/)	| Apache and MIT	| [Rust Project](https://www.rust-lang.org/)
+muForth	| [Upstream](https://github.com/nimblemachines/muforth)	| ?	| David Frech
+ibForth	| [Upstream](https://github.com/larsbrinkhoff/lbForth)	| GPL	| Lars Brinkhoff
+Mecrisp-Quintis Forth kernel	| [Upstream](http://mecrisp.sourceforge.net/)	| ?	| Matthias Koch
 
 # IDEs
 
