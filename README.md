@@ -638,42 +638,6 @@ https://github.com/jsonn/src (Git Mirror)
 * RISC-V repository: same as upstream
 * Upstream repository: https://nim-lang.org/
 
-## Forth kernels
-
-### muForth
-
-* Maintainer(s): David Frech
-* Version:
-* Status:
-* Upstreaming status: N/A
-* Future work:
-* RISC-V repository: N/A
-* Upstream repository: https://github.com/nimblemachines/muforth
-* Privileged Spec:
-* User Spec:
-* ABI: N/A
-
-### lbForth
-
-* Maintainer(s): Lars Brinkhoff
-* Version:
-* Status:
-* Upstreaming status: N/A
-* Future work:
-* RISC-V repository: N/A
-* Upstream repository: https://github.com/larsbrinkhoff/lbForth
-* Privileged Spec:
-* User Spec: 2.0
-* ABI: N/A
-
-### Mecrisp-Quintus
-
-* Maintainer(s): Matthias Koch
-* Version: 0.4
-* Status: Experimental
-* Upstream repository: http://mecrisp.sourceforge.net/
-* Architecture: RV32IM
-
 ## Ada (GNAT)
 
 * Maintainer(s): AdaCore
@@ -690,6 +654,40 @@ https://github.com/jsonn/src (Git Mirror)
 * Version: 1.30.0
 * Upstreaming status: upstream
 * Upstream repository: https://github.com/rust-lang/rust/
+
+## muForth
+
+* Maintainer(s): David Frech
+* Version:
+* Status:
+* Upstreaming status: N/A
+* Future work:
+* RISC-V repository: N/A
+* Upstream repository: https://github.com/nimblemachines/muforth
+* Privileged Spec:
+* User Spec:
+* ABI: N/A
+
+## lbForth
+
+* Maintainer(s): Lars Brinkhoff
+* Version:
+* Status:
+* Upstreaming status: N/A
+* Future work:
+* RISC-V repository: N/A
+* Upstream repository: https://github.com/larsbrinkhoff/lbForth
+* Privileged Spec:
+* User Spec: 2.0
+* ABI: N/A
+
+## Mecrisp-Quintus Forth kernel
+
+* Maintainer(s): Matthias Koch
+* Version: 0.4
+* Status: Experimental
+* Upstream repository: http://mecrisp.sourceforge.net/
+* Architecture: RV32IM
 
 # IDEs
 
