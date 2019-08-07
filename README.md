@@ -516,6 +516,7 @@ GNU MCU Eclipse | [Website](https://gnu-mcu-eclipse.github.io), [Repositories](h
 Name | Links | License | Maintainers
 ---- | ----- | ------- | -----------
 Hex Five Security | [SDK](https://github.com/hex-five/multizone-sdk) |	Proprietary	| [Hex Five Security Inc.](www.hex-five.com)
+Keystone Enclave | [Website](https://keystone-enclave.org), [Repositories](https://github.com/keystone-enclave) | BSD 3-clause | [Keystone Team](https://keystone-enclave.org/contact/)
 
 # Help Wanted
 
