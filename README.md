@@ -216,10 +216,6 @@ https://riscv.org/wp-content/uploads/2016/01/Tues1415-RISC-V-and-UEFI.pdf
 
 Name | Links | License | Maintainers
 ---- | ----- | ------- | -----------
-
-
-Name | Links | License | Maintainers
----- | ----- | ------- | -----------
 Linux Kernel | [github](https://github.com/riscv/riscv-linux), [kernel.org](https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git) | GPLv2 | Andrew Waterman (SiFive), Albert Ou (SiFive), Palmer Dabbelt (SiFive)
 Yocto Project/OpenEmbedded | [github](https://github.com/riscv/meta-riscv) |  | Khem Raj
 Poky | [github.com](https://github.com/riscv/riscv-poky) |  | Martin Maas (University of California, Berkeley)
