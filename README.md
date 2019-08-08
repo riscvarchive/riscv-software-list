@@ -212,280 +212,46 @@ https://riscv.org/wp-content/uploads/2016/01/Tues1415-RISC-V-and-UEFI.pdf
 
 # OS and OS kernels
 
-## Linux Kernel
+## Linux built from source
 
-* Maintainer(s): Andrew Waterman (SiFive), Albert Ou (SiFive), Palmer Dabbelt (SiFive)
-* Version: 4.15
-* Upstreaming status: Merged
-* Future work:
-* RISC-V repository: https://github.com/riscv/riscv-linux
-* Upstream repository: https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git
-* Privileged Spec: 1.10
-* User Spec: 2.0
-* ABI:
+Name | Links | License | Maintainers
+---- | ----- | ------- | -----------
+Linux Kernel | [github](https://github.com/riscv/riscv-linux), [kernel.org](https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git) | GPLv2 | Andrew Waterman (SiFive), Albert Ou (SiFive), Palmer Dabbelt (SiFive)
+Yocto Project/OpenEmbedded | [github](https://github.com/riscv/meta-riscv) |  | Khem Raj
+Poky | [github.com](https://github.com/riscv/riscv-poky) |  | Martin Maas (University of California, Berkeley)
+Buildroot | [busybox.net](https://git.busybox.net/buildroot/) |  | Mark Corbin (Embecosm)
 
-## seL4
+## Linux distributions
 
-* Maintainer(s): Hesham Almatary and Data61/CSIRO
-* Version: 9.0.1
-* Status: Merged upstream.
-* Upstreaming status: Done.
-* Future work: Benchmarking.
-* RISC-V repository: https://github.com/heshamelmatary/sel4riscv-manifest/blob/master/sel4test-06032018.xml
-* Upstream repository: https://github.com/seL4/seL4
-* Privileged Spec: 1.10
-* User Spec: 2.1
-* ABI:
-* Links: http://heshamelmatary.blogspot.com.au/2017/06/update-sel4risc-v-smp-support-sel4.html
+Name | Links | License | Maintainers
+---- | ----- | ------- | -----------
+Fedora	| [fedoraproject.org](http://fedoraproject.org/wiki/Architectures/RISC-V) | | Richard WM Jones, Stefan O’Rear, David Abdurachmanov
+Debian | [debian wiki](https://wiki.debian.org/RISC-V), [mit.edu](http://riscv.mit.edu/), [riscv.org](https://content.riscv.org/wp-content/uploads/2016/07/Wed1115_Working_Towards_a_Debian_RISC-V_Port.pdf), [Annc](https://people.debian.org/~mafm/posts/2017/20170422_debian-gnulinux-port-for-risc-v-64-bit-riscv64/) | | Manuel A. Fernandez Montecelo
+OpenMandriva | [openmandriva.org](http://abf-downloads.openmandriva.org/cooker/repository/riscv64/), [openmandriva.org](http://openmandriva.org/) | | Bernhard "Bero" Rosenkränzer
+openSUSE | [opensuse.org](https://build.opensuse.org/project/show/openSUSE:Factory:RISCV) |  | Andreas Schwab (SUSE)
+Gentoo | [github.com](https://github.com/palmer-dabbelt/riscv-gentoo) |  | Palmer Dabbelt (University of California, Berkeley)
+Parabola GNU/Linux-libre | [github.com](https://github.com/oaken-source/parabola-riscv64-bootstrap), [parabola.nu](https://git.parabola.nu/abslibre.git) | | Andreas Grapentin (University of Potsdam, HPI)
+januslinux | [github.com](https://github.com/JanusLinux/janus) |  | nee-san
 
-## RTEMS
+## Real-time Operating Systems
 
-* Maintainer(s): Hesham Almatary
-* Version: 5
-* Status: Merged upstream. Tier-1 RTEMS Target that runs on both simulators (Spike, QEMU, etc) and hardware with SMP, POSIX and Tests support.
-* Upstream repository: https://git.rtems.org/rtems/
-* Privileged Spec:
-* User Spec:
-* ABI:
-* Links: https://docs.rtems.org/branches/master/user/bsps/bsps-riscv.html#riscv
+Name | Links | License | Maintainers
+---- | ----- | ------- | -----------
+RTEMS | [rtems.org](https://git.rtems.org/rtems/), [docs.rtems.org](https://docs.rtems.org/branches/master/user/bsps/bsps-riscv.html#riscv) | | Hesham Almatary
+FreeRTOS | [sourceforge](https://www.sourceforge.net/projects/freertos/) [freertos.org](https://www.freertos.org/Using-FreeRTOS-on-RISC-V.html) | | AWS
+Zephyr | [github](https://github.com/zephyrproject-rtos/zephyr/), [docs](http://docs.zephyrproject.org/boards/riscv32/index.html) | | Karol Gugala (Antmicro), Peter Gielda (Antmicro), Nathaniel Graff (SiFive)
+NuttX | [bitbucket.org](https://bitbucket.org/nuttx/nuttx/src/master/), [nuttx.org](http://nuttx.org/Documentation/NuttX.html#riscv) | | 
+Apache Mynewt | [riscv.org](https://riscv.org/wp-content/uploads/2016/07/Wed930_riscv_apachemynewt_v1.2.pdf) | | James Pace, Runtime
+OpenWrt | [github.com](https://git.openwrt.org/?p=openwrt/staging/wigyori.git;a=shortlog;h=refs/heads/kitchensink-201810), [binary repo](http://openwrt.uid0.hu) | | Zoltan Herpai
+seL4 | [github](https://github.com/heshamelmatary/sel4riscv-manifest/blob/master/sel4test-06032018.xml), [announcement](http://heshamelmatary.blogspot.com.au/2017/06/update-sel4risc-v-smp-support-sel4.html) | | Hesham Almatary and Data61/CSIRO
 
-## FreeRTOS
 
-* Maintainer(s): AWS
-* Version: 10.2.0
-* Status: See https://www.freertos.org/Using-FreeRTOS-on-RISC-V.html#RISC_V_QUICK_START 
-* Upstreaming status: Done
-* Future work:
-* Upstream repository: https://www.sourceforge.net/projects/freertos/  
-* Privileged Spec:
-* User Spec: 2.0
-* ABI:
-* Link(s): https://www.freertos.org/Using-FreeRTOS-on-RISC-V.html 
+## BSD distributions
 
-## NuttX
-
-* Maintainer(s): 
-* Version: 7.27
-* Status: http://nuttx.org/Documentation/NuttX.html#riscv
-* Upstreaming status: Done
-* Future work:
-* Upstream repository: https://bitbucket.org/nuttx/nuttx/src/master/
-* Privileged Spec:
-* User Spec: 
-* ABI:
-* Link(s): http://nuttx.org/Documentation/NuttX.html#riscv
-
-## Apache Mynewt
-
-* Maintainer(s): James Pace, Runtime
-* Version:
-* Status:
-* Upstreaming status:
-* Future work:
-* RISC-V repository:
-* Upstream repository:
-* Privileged Spec:
-* User Spec: 2.0
-* ABI:
-* Links: https://riscv.org/wp-content/uploads/2016/07/Wed930_riscv_apachemynewt_v1.2.pdf
-
-## Zephyr
-
-* Maintainer(s): Karol Gugala (Antmicro), Peter Gielda (Antmicro), Nathaniel Graff (SiFive)
-* Version: 1.13.0
-* Status: Support for RV32 QEMU Emulation, Zedboard Pulpino, SiFive HiFive1, MicroSemi M2GL025 Mi-V
-* Upstreaming status: Done
-* Future work:
-* Upstream repository: https://github.com/zephyrproject-rtos/zephyr/
-* Privileged Spec: 1.9.1
-* User Spec: 2.1
-* ABI:
-* Links: http://docs.zephyrproject.org/boards/riscv32/index.html
-
-## Fedora
-
-* Maintainer(s): Richard WM Jones, Stefan O’Rear, David Abdurachmanov
-* Version: 25
-* Status: Packages from @Core group (except dracut and plymouth) built against an old ABI; on hold until the bootstrap can be repeated and automated
-* Upstreaming status: Some changes upstreamed
-* Future work: Redo bootstrap with gcc-7, upstream all patches
-* RISC-V repository:
-* Upstream repository:
-* Privileged Spec: (depends on kernel used)
-* User Spec: 2.0
-* ABI: ~ September 2016 (not gcc-7)
-* Links: http://fedoraproject.org/wiki/Architectures/RISC-V
-
-## Debian
-
-* Maintainer(s): Manuel A. Fernandez Montecelo
-* Version: unstable (sid)
-* Status: GCC and binutils for RISC-V are available in Unstable
-* Upstreaming status: Out of tree
-* Future work: -
-* RISC-V repository: -
-* Upstream repository: -
-* Privileged Spec: Only important for the kernel, the userland is not affected
-* User Spec: 2.0
-* ABI:
-* Links:
-    * https://wiki.debian.org/RISC-V
-    * http://riscv.mit.edu/
-    * https://content.riscv.org/wp-content/uploads/2016/07/Wed1115_Working_Towards_a_Debian_RISC-V_Port.pdf
-    * https://people.debian.org/~mafm/posts/2017/20170422_debian-gnulinux-port-for-risc-v-64-bit-riscv64/
-
-## openSUSE
-
-* Maintainer(s): Andreas Schwab (SUSE)
-* Version: Tumbleweed
-* Status:
-* Upstreaming status: 
-* Future work:
-* RISC-V repository:
-* Upstream repository: https://build.opensuse.org/project/show/openSUSE:Factory:RISCV
-* Privileged Spec:
-* User Spec: 2.2
-* ABI:
-* Links: https://en.opensuse.org/openSUSE:RISC-V
-
-## OpenMandriva
-
-* Maintainer(s): Bernhard "Bero" Rosenkränzer (bero at lindev dot ch)
-* Version: cooker (AKA master)
-* Status: Core packages built, RISC-V added to build server for all new packages. Currently building with gcc and ld.bfd (where OpenMandriva on other architectures defaults to clang and ld.gold). Package set not yet complete.
-* Upstreaming status: upstream
-* Future work: Toolchain changes, port remaining packages
-* RISC-V repository: no separate repository, all merged into upstream
-* Upstream repository: https://github.com/OpenMandrivaAssociation
-* Privileged Spec: 2.0
-* User Spec: 2.0
-* ABI: lp64d, building with -march=rv64imafdc (ports to other subarches may happen in the future)
-* Links: http://openmandriva.org/ http://abf-downloads.openmandriva.org/cooker/repository/riscv64/
-
-## Yocto Project/OpenEmbedded
-
-* Maintainer(s): Khem Raj
-* Version: master
-* Status: Support console images
-* Upstreaming status: upstream
-* Future work: Graphical packages, PIE, SSP
-* RISC-V repository: https://github.com/riscv/meta-riscv
-* Upstream repository: http://git.yoctoproject.org/
-* Privileged Spec: 1.9.1
-* User Spec: 2.0
-* ABI:
-
-## Poky
-
-* Maintainer(s): Martin Maas (University of California, Berkeley)
-* Version: master branch as of Oct 13, 2016.
-* Status: Support for many packages, supports riscvemu and spike
-* Upstreaming status: Out of tree
-* Future work:
-* RISC-V repository: https://github.com/riscv/riscv-poky
-* Upstream repository: http://git.yoctoproject.org/cgit/cgit.cgi/poky/tree/
-* Privileged Spec: 1.9.1
-* User Spec: 2.0
-* ABI:
-
-## Gentoo
-
-* Maintainer(s): Palmer Dabbelt (University of California, Berkeley)
-* Version:
-* Status:
-* Upstreaming status: Out of tree
-* Future work:
-* RISC-V repository: https://github.com/palmer-dabbelt/riscv-gentoo
-* Upstream repository: https://github.com/gentoo/gentoo
-* Privileged Spec:
-* User Spec: 2.0
-* ABI:
-
-## Parabola GNU/Linux-libre
-
-* Maintainer(s): Andreas Grapentin (University of Potsdam, HPI)
-* Version: rolling
-* Status: complete base-devel cross-makepkg chroot
-* Upstreaming status: 
-* Future work: pacstrap bootable base VM 
-* RISC-V repository: https://github.com/oaken-source/parabola-riscv64-bootstrap
-* Upstream repository: https://git.parabola.nu/abslibre.git
-* Privileged Spec:
-* User Spec: 2.0
-* ABI: stable
-* Links:
-    * https://parabola.nu
-
-## OpenWrt
-
-* Maintainer(s): Zoltan Herpai 
-* Version: snapshots/trunk
-* Status: Target and patches sit on top of trunk, builds with glibc. 99% of non-core (openwrt/packages) packages are built and availabe for download.
-* Upstreaming status: Out of tree until 4.19 is integrated into trunk
-* Future work: musl 1.21 integration
-* RISC-V repository: https://git.openwrt.org/?p=openwrt/staging/wigyori.git;a=shortlog;h=refs/heads/kitchensink-201810
-* Upstream repository: -
-* Privileged Spec: 
-* User Spec: 2.0
-* ABI:
-* Links: http://openwrt.uid0.hu (binary repository)
-
-## januslinux
-
-* Maintainer(s): nee-san
-* Version: master
-* Status: works 64-bit version only in QEMU. 32-bit has problems with Michael Forney's risc-v musl
-* Upstreaming status: 
-* Future work:
-* RISC-V repository:
-* Upstream repository: https://github.com/JanusLinux/janus
-* Privileged Spec:
-* User Spec: 2.2
-* ABI:
-* Links:
-
-## Buildroot
-
-* Maintainer(s): Mark Corbin (Embecosm)
-* Version:
-  * master branch as of Sept 25, 2018 (64 bit)
-  * master branch as of Jan 10, 2019 (32 bit)
-* Status: Basic RISC-V 32-bit and 64-bit support for QEMU virtual target
-* Upstreaming status: upstream
-* Future work: -
-* Upstream repository: https://git.busybox.net/buildroot/
-* Privileged Spec: 
-* User Spec: 
-* ABI:
-
-## FreeBSD
-
-* Maintainer(s): Ruslan Bukin (FreeBSD)
-* Version: 11.0
-* Status: Base system, no ports yet
-* Upstreaming status: RISC-V support in FreeBSD 11.0
-* Future work: FreeBSD ports system
-* Upstream repository: https://github.com/freebsd/freebsd (Mirror)
-* Privileged Spec: 1.10
-* User Spec: 2.0
-* ABI:
-* Links: https://wiki.freebsd.org/riscv
-
-https://riscv.org/wp-content/uploads/2016/01/Tues1445-freebsd-riscv-1.pdf
-
-## NetBSD
-
-* Maintainer(s): Matt Thomas (NetBSD), Reinoud Zandijk (NetBSD)
-* Version:
-* Status:
-* Upstreaming status:
-* Future work:
-* Upstream repository:
-http://cvsweb.netbsd.org/bsdweb.cgi/src/?only_with_tag=MAIN
-https://github.com/jsonn/src (Git Mirror)
-* Privileged Spec: 1.9
-* User Spec: 2.0
-* ABI:
+Name | Links | License | Maintainers
+---- | ----- | ------- | -----------
+FreeBSD | [github.com](https://github.com/freebsd/freebsd), [wiki.freebsd.org](https://wiki.freebsd.org/riscv), [presentation](https://riscv.org/wp-content/uploads/2016/01/Tues1445-freebsd-riscv-1.pdf) | | Ruslan Bukin (FreeBSD)
+NetBSD | [netbsd.org](http://cvsweb.netbsd.org/bsdweb.cgi/src/?only_with_tag=MAIN), [github.com](https://github.com/jsonn/src) |  | Matt Thomas (NetBSD), Reinoud Zandijk (NetBSD)
 
 # Compilers and runtimes for other languages
 
