@@ -281,7 +281,10 @@ GNU MCU Eclipse | [Website](https://gnu-mcu-eclipse.github.io), [Repositories](h
 
 Name | Links | License | Maintainers
 ---- | ----- | ------- | -----------
-Hex Five Security | [SDK](https://github.com/hex-five/multizone-sdk) |	Proprietary	| [Hex Five Security Inc.](www.hex-five.com)
+Multi Zone Free API | [GitHub](https://github.com/hex-five/multizone-api) | [ISC](https://github.com/hex-five/multizone-api/blob/master/LICENSE) | [Hex Five Security, Inc.](http://www.hex-five.com)
+Secure IoT Stack | [GitHub](https://github.com/hex-five/multizone-secure-iot-stack) | [ISC](https://github.com/hex-five/multizone-secure-iot-stack/blob/master/LICENSE) | [Hex Five Security, Inc.](http://www.hex-five.com)
+MultiZone Security TEE | [GitHub](https://github.com/hex-five/multizone-sdk) | [Dual](https://github.com/hex-five/multizone-sdk/blob/master/LICENSE) | [Hex Five Security, Inc.](http://www.hex-five.com)
+MultiZone Security Enclave | [GitHub](https://github.com/hex-five/multizone-linux) | [Dual](https://github.com/hex-five/multizone-linux/blob/master/LICENSE) | [Hex Five Security, Inc.](http://www.hex-five.com)
 Keystone Enclave | [Website](https://keystone-enclave.org), [Repositories](https://github.com/keystone-enclave) | BSD 3-clause | [Keystone Team](https://keystone-enclave.org/contact/)
 
 # Help Wanted
