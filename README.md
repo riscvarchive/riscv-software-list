@@ -56,19 +56,17 @@ https://groups.google.com/a/groups.riscv.org/forum/#!searchin/sw-dev/binutils/sw
 
 * Maintainer(s): Alex Bradbury (lowRISC)
 * Version: HEAD
-* Upstreaming status: MC changes are upstream, assembler and initial codegen patches submitted
+* Upstreaming status: Upstream, RISC-V officially supported starting in 9.0.0
 * Future work:
   * Resolve remaining issues with GCC torture suite test cases (mostly calling convention related)
   * Expand support for different ISA variants, PIC/PIE code models etc
   * Scheduling model, peephole optimisations, and performance comparison vs GCC-generated code
 * Upstream repository:
-  * http://llvm.org/viewvc/llvm-project/llvm/trunk
   * https://github.com/llvm-mirror/llvm (Git mirror)
-  * https://github.com/lowrisc/riscv-llvm (patch series)
 * Privileged Spec:
 * User Spec: 2.0
 * ABI:
-* Links: http://llvm.org/viewvc/llvm-project/llvm/trunk/lib/Target/RISCV/
+* Links: https://github.com/llvm-mirror/llvm/tree/master/lib/Target/RISCV
 
 ## Cranelift
 
@@ -146,7 +144,7 @@ Name | Links | License | Maintainers
 ---- | ----- | ------- | -----------
 GCC	| [Upstream](https://gcc.gnu.org/viewcvs/gcc/trunk/), [RISC-V repository](https://github.com/riscv/riscv-gcc) | GPL	| Andrew Waterman (SiFive), Palmer Dabbelt (SiFive), Jim Wilson (SiFive), Kito Cheng (Andes)
 GNU MCU Eclipse RISC-V Embedded GCC (riscv-non-embed-gcc)	| [Web](https://gnu-mcu-eclipse.github.io/toolchain/riscv/), [Repository](https://github.com/gnu-mcu-eclipse/riscv-none-gcc), [Build](https://github.com/gnu-mcu-eclipse/riscv-none-gcc-build), [Binary package installer](https://www.npmjs.com/package/@gnu-mcu-eclipse/riscv-none-gcc)	| Eclipse Public License |	Liviu lonescu
-clang	| -	| -	| -
+Clang/LLVM	| [Upstream](https://github.com/llvm-mirror/llvm)	| Apache 2.0	| Alex Bradbury (lowRISC)
 CompCert	| [Upstream](https://github.com/AbsInt/CompCert.git)	| INRIA Non-Commercial License Agreement	| Xavier Leroy
 Glibc	| [Upstream](https://sourceware.org/git/?p=glibc.git), [RISC-V repository](https://github.com/riscv/riscv-glibc) |	GPL |	Palmer Dabbelt (SiFive), Andrew Waterman (SiFive), DJ Delorie (Red Hat), Darius Rad(Bluespec)
 Newlib	| [Upstream](http://cygwin.com/git/gitweb.cgi?p=newlib-cygwin.git), [RISC-V repository](https://github.com/riscv/riscv-newlib)	| GPL	| Kito Cheng (Andes)
