@@ -35,6 +35,7 @@ RISC-V Virtual Prototype | [website](http://www.systemc-verification.org/riscv-v
 TinyEMU | [website](http://bellard.org/riscvemu/) | MIT | Fabrice Bellard
 Spike | [github](https://github.com/riscv/riscv-isa-sim) | BSD 3-clause | Andrew Waterman & Yunsup Lee (SiFive)
 Swerv-ISS  | [github](https://github.com/westerndigitalcorporation/swerv-ISS) | GPL - 3 | Joseph Rahmeh (Western Digital) 
+MARSS-RISCV | [github](https://github.com/bucaps/marss-riscv) | MIT | Gaurav N Kothari, Parikshit P Sarnaik, Gokturk Yuksek (State University of New York at Binghamton)
 
 # Object toolchain
 
