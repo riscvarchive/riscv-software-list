@@ -40,40 +40,11 @@ VLAB  | [VLAB Works](http://vlabworks.com/) | Proprietary | [ASTC](http://astc-d
 
 # Object toolchain
 
-## Binutils
-
-* Maintainer(s): Andrew Waterman (SiFive), Palmer Dabbelt (SiFive), Jim Wilson (SiFive)
-* Version: 2.28
-* Upstreaming status: Upstream, RISC-V support available starting in 2.28
-* Future work:
-* RISC-V repository: https://github.com/riscv/riscv-binutils-gdb
-* Upstream repository: https://sourceware.org/git/gitweb.cgi?p=binutils-gdb.git
-* Privileged Spec: 1.9.1
-* User Spec: 2.0
-* ABI:
-* Links:
-https://groups.google.com/a/groups.riscv.org/forum/#!searchin/sw-dev/binutils/sw-dev/RS_wN0-wpCI/X923RdnDBQAJ
-
-## LLVM
-
-* Maintainer(s): Alex Bradbury (lowRISC)
-* Version: HEAD
-* Upstreaming status: Upstream, RISC-V officially supported starting in 9.0.0
-* Future work:
-  * Resolve remaining issues with GCC torture suite test cases (mostly calling convention related)
-  * Expand support for different ISA variants, PIC/PIE code models etc
-  * Scheduling model, peephole optimisations, and performance comparison vs GCC-generated code
-* Upstream repository:
-  * https://github.com/llvm-mirror/llvm (Git mirror)
-* Privileged Spec:
-* User Spec: 2.0
-* ABI:
-* Links: https://github.com/llvm-mirror/llvm/tree/master/lib/Target/RISCV
-
-## Cranelift
-
-* Version: HEAD
-* Repository: https://github.com/CraneStation/cranelift
+Name | Links | License | Maintainers
+---- | ----- | ------- | -----------
+Binutils | [RISC-V repo](https://github.com/riscv/riscv-binutils-gdb), [Upstream repos](https://sourceware.org/git/gitweb.cgi?p=binutils-gdb.git) | GPLv2 | Andrew Waterman, Palmer Dabbelt & Jim Wilson (SiFive)
+LLVM | [GitHub mirror](https://github.com/llvm-mirror/llvm/tree/master/lib/Target/RISCV) | Apache 2.0 with LLVM exception | Alex Bradbury (lowRISC)
+Cranelift | [GitHub](https://github.com/CraneStation/cranelift) | Apache 2.0 | [Cranelift core team](https://github.com/orgs/CraneStation/people/)
 
 # Debugging
 
