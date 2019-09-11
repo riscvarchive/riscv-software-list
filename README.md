@@ -48,67 +48,14 @@ Cranelift | [GitHub](https://github.com/CraneStation/cranelift) | Apache 2.0 | [
 
 # Debugging
 
-## Gdb
 
-* Maintainer(s): Andrew Burgess (Embecosm), Palmer Dabbelt (SiFive)
-* Version: HEAD
-* Upstreaming status: Bare metal support committed upstream 6 March 2018, was in 8.2 release.  XML target description support, non DWARF stack unwinding, basic Linux application support, and basic BSD application support will be in the next (8.3) release.
-* Future work: Linux GDBServer support.
-* RISC-V repository: https://github.com/riscv/riscv-binutils-gdb
-* Upstream repository: https://sourceware.org/git/gitweb.cgi?p=binutils-gdb.git
-* Privileged Spec: 1.9.1
-* User Spec: 2.0
-* ABI:
-* Links:
-  * https://sourceware.org/ml/gdb-patches/2018-03/msg00070.html
-  * https://sourceware.org/ml/gdb-patches/2018-03/msg00071.html
-  * https://sourceware.org/ml/gdb-patches/2018-03/msg00072.html
-
-## OpenOCD
-
-* Maintainer(s): Tim Newsome, Megan Wachs, Palmer Dabbelt (SiFive)
-* Version: 0.10.0-dev
-* Upstreaming status: Not started
-* Future work: 
-  * Implementing System Bus Access
-  * Implementing semihosting and/or proxied syscalls
-* RISC-V repository: https://github.com/riscv/riscv-openocd
-* Upstream repository: https://sourceforge.net/p/openocd/code/ci/master/tree/
-* Debug Spec Working Directory: https://github.com/riscv/riscv-debug-spec
-* Debug Spec: https://github.com/riscv/riscv-debug-spec/blob/0.13/riscv-debug-spec.pdf
-* Supported Debug Spec version(s): 0.11, 0.13
-
-## GNU MCU Eclipse OpenOCD
-
-A binary distribution of OpenOCD with support for RISC-V.
-
-* Maintainer(s): Liviu Ionescu
-* Web: https://gnu-mcu-eclipse.github.io/openocd/
-* Repository: https://github.com/gnu-mcu-eclipse/openocd
-* Build: https://github.com/gnu-mcu-eclipse/openocd-build
-* Binary package installer: https://www.npmjs.com/package/@gnu-mcu-eclipse/openocd 
-
-## Imperas Multi Processor Debugger
-
- * Status: commercially supported solution
- * Website: http://www.imperas.com/riscv#debug
- * Single core: simulator provides gdbServer for single core debug with GDB/Eclipse
- * Multi-Core debug available in Eclipse to debug SMP and AMP heterogeneous multi-core systems including all processor instances and peripheral behavioral components
- * Links: http://www.imperas.com/msdk-advanced-multicore-software-development-kit#Debug
-
-## TCF Debugger
-
-* Maintainer(s): Sanimir Agovic
-* Website: https://projects.eclipse.org/projects/tools.cdt.tcf
-* Version: HEAD
-* Upstreaming status: Linux native debugging support commit
-* Future work: 
-  * Bare metal debugging based on RISC-V External Debug Support 
-  * FPU support for native Linux debugging
-* Upstream repository: https://github.com/eclipse/tcf.agent
-* User Spec: 2.2
-* Links:
-  * https://git.eclipse.org/r/#/c/134914/
+Name | Links | License | Maintainers
+---- | ----- | ------- | -----------
+GDB | [Upstream](https://sourceware.org/git/gitweb.cgi?p=binutils-gdb.git) | GPLv2 | Andrew Burgess (Embecosm), Palmer Dabbelt (SiFive)
+OpenOCD | [Upstream repo](https://sourceforge.net/p/openocd/code/ci/master/tree/), [RISC-V repo](https://github.com/riscv/riscv-openocd) | GPLv2 | Tim Newsome, Megan Wachs, Palmer Dabbelt (SiFive)
+GNU MCU Eclipse OpenOCD | [Website](https://gnu-mcu-eclipse.github.io/openocd/), [GitHub](https://github.com/gnu-mcu-eclipse/openocd) | GPLv2 | Liviu Ionescu
+Imperas Multi Processor Debugger | [Website](http://www.imperas.com/riscv#debug) | Imperas Commercial License | [Imperas](http://www.imperas.com/)
+TCF Debugger | [Website](https://projects.eclipse.org/projects/tools.cdt.tcf), [GitHub](https://github.com/eclipse/tcf.agent) | Eclipse Distribution License 1.0 (BSD) / Eclipse Public License 1.0 | Sanimir Agovic
 
 # C compilers and libraries
 
