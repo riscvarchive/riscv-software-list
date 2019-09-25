@@ -199,10 +199,12 @@ GNU MCU Eclipse | [Website](https://gnu-mcu-eclipse.github.io), [Repositories](h
 
 Name | Links | License | Maintainers
 ---- | ----- | ------- | -----------
-Hex Five Security | [SDK](https://github.com/hex-five/multizone-sdk) |	Proprietary	| [Hex Five Security Inc.](http://www.hex-five.com/)
+CoreGuard | [Website](https://www.dovermicrosystems.com/solutions/coreguard/) | Proprietary | [Dover Microsystems, Inc.](https://www.dovermicrosystems.com/get-coreguard) 
+MultiZone API | [GitHub](https://github.com/hex-five/multizone-api) | ISC | [Hex Five Security Inc.](http://www.hex-five.com/)
+Secure IoT Stack | [GitHub](https://github.com/hex-five/multizone-secure-iot-stack) | MIT, GPLv2, GPLv3, Evaluation license | [Hex Five Security Inc.](http://www.hex-five.com/)
+MultiZone Security TEE & Enclave | [SDK](https://github.com/hex-five/multizone-sdk), [Enclave](https://github.com/hex-five/multizone-linux) |	Evaluation license | [Hex Five Security Inc.](http://www.hex-five.com/)
 Keystone Enclave | [Website](https://keystone-enclave.org), [Repositories](https://github.com/keystone-enclave) | BSD 3-clause | [Keystone Team](https://keystone-enclave.org/contact/)
 SecureRF | [Website](https://www.securerf.com/products/), [SDK](https://info.securerf.com/iot-embedded-sdk-development-kit) | Proprietary | [SecureRF Corp.](https://www.securerf.com)
-CoreGuard | [Website](https://www.dovermicrosystems.com/solutions/coreguard/) | Proprietary | [Dover Microsystems, Inc.](https://www.dovermicrosystems.com/get-coreguard) 
 
 # Help Wanted
 
