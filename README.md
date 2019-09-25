@@ -54,6 +54,7 @@ Name | Links | License | Maintainers
 GDB | [Upstream](https://sourceware.org/git/gitweb.cgi?p=binutils-gdb.git) | GPLv2 | Andrew Burgess (Embecosm), Palmer Dabbelt (SiFive)
 OpenOCD | [Upstream repo](https://sourceforge.net/p/openocd/code/ci/master/tree/), [RISC-V repo](https://github.com/riscv/riscv-openocd) | GPLv2 | Tim Newsome, Megan Wachs, Palmer Dabbelt (SiFive)
 GNU MCU Eclipse OpenOCD | [Website](https://gnu-mcu-eclipse.github.io/openocd/), [GitHub](https://github.com/gnu-mcu-eclipse/openocd) | GPLv2 | Liviu Ionescu
+Ozone - the J-Link Debugger | [Website](https://www.segger.com/ozone) | SEGGER commercial license (J-Link PLUS) | [SEGGER](https://www.segger.com/)
 Imperas Multi Processor Debugger | [Website](http://www.imperas.com/riscv#debug) | Imperas Commercial License | [Imperas](http://www.imperas.com/)
 TCF Debugger | [Website](https://projects.eclipse.org/projects/tools.cdt.tcf), [GitHub](https://github.com/eclipse/tcf.agent) | Eclipse Distribution License 1.0 (BSD) / Eclipse Public License 1.0 | Sanimir Agovic
 
@@ -67,6 +68,7 @@ Clang/LLVM	| [Upstream](https://github.com/llvm-mirror/llvm)	| Apache 2.0	| Alex
 CompCert	| [Upstream](https://github.com/AbsInt/CompCert.git)	| INRIA Non-Commercial License Agreement	| Xavier Leroy
 Glibc	| [Upstream](https://sourceware.org/git/?p=glibc.git), [RISC-V repository](https://github.com/riscv/riscv-glibc) |	GPLv2 |	Palmer Dabbelt (SiFive), Andrew Waterman (SiFive), DJ Delorie (Red Hat), Darius Rad(Bluespec)
 Newlib	| [Upstream](http://cygwin.com/git/gitweb.cgi?p=newlib-cygwin.git), [RISC-V repository](https://github.com/riscv/riscv-newlib)	| GPLv2	| Kito Cheng (Andes)
+SEGGER Runtime Library | [Website](https://www.segger.com/products/development-tools/runtime-library/) | SEGGER commercial license | [SEGGER](https://www.segger.com/)
 Musl	| -	| - | -
 
 # Boot loaders and monitors
@@ -105,6 +107,7 @@ januslinux | [github](https://github.com/JanusLinux/janus) |  | nee-san
 
 Name | Links | License | Maintainers
 ---- | ----- | ------- | -----------
+embOS | [Website](https://www.segger.com/embOS), [RISC-V port](https://www.segger.com/products/rtos/embos/supported-cores-compiler/sifive/risc-v/embos-riscv-es/) | SEGGER commercial license, free for non-commercial use | [SEGGER](https://www.segger.com/)
 RTEMS | [rtems.org](https://git.rtems.org/rtems/), [docs.rtems.org](https://docs.rtems.org/branches/master/user/bsps/bsps-riscv.html#riscv) | | Hesham Almatary
 FreeRTOS | [sourceforge](https://www.sourceforge.net/projects/freertos/) [freertos.org](https://www.freertos.org/Using-FreeRTOS-on-RISC-V.html) | | AWS
 Zephyr | [github](https://github.com/zephyrproject-rtos/zephyr/), [docs](http://docs.zephyrproject.org/boards/riscv32/index.html) | | Karol Gugala (Antmicro), Peter Gielda (Antmicro), Nathaniel Graff (SiFive)
@@ -143,12 +146,14 @@ Mecrisp-Quintis Forth kernel	| [Upstream](http://mecrisp.sourceforge.net/)	| ?	|
 Name | Links | License | Maintainers
 ---- | ----- | ------- | -----------
 GNU MCU Eclipse | [Website](https://gnu-mcu-eclipse.github.io), [Repositories](https://github.com/gnu-mcu-eclipse), [Binary distribution](https://github.com/gnu-mcu-eclipse/org.eclipse.epp.packages/releases/) |	EPL-1.0 / various	| Liviu Ionescu
+Embedded Studio | [Website](https://www.segger.com/embeddedstudio), [RISC-V spec](https://www.segger.com/products/development-tools/embedded-studio/editions/risc-v/) | SEGGER commercial license, free for non-commercial use | [SEGGER](https://www.segger.com/)
 
 
 # Security
 
 Name | Links | License | Maintainers
 ---- | ----- | ------- | -----------
+emCrypt | [Website](https://www.segger.com/emcrypt) | Commercial, free for non-commercial use | [SEGGER](https://www.segger.com/)
 CoreGuard | [Website](https://www.dovermicrosystems.com/solutions/coreguard/) | Proprietary | [Dover Microsystems, Inc.](https://www.dovermicrosystems.com/get-coreguard) 
 MultiZone API | [GitHub](https://github.com/hex-five/multizone-api) | ISC | [Hex Five Security Inc.](http://www.hex-five.com/)
 Secure IoT Stack | [GitHub](https://github.com/hex-five/multizone-secure-iot-stack) | MIT, GPLv2, GPLv3, Evaluation license | [Hex Five Security Inc.](http://www.hex-five.com/)
