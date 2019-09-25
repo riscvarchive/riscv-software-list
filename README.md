@@ -87,7 +87,7 @@ OpenSBI | [GitHub](https://github.com/riscv/opensbi) | BSD 2-clause | Anup Patel
 Name | Links | License | Maintainers
 ---- | ----- | ------- | -----------
 Linux Kernel | [github](https://github.com/riscv/riscv-linux), [kernel.org](https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git) | GPLv2 | Andrew Waterman (SiFive), Albert Ou (SiFive), Palmer Dabbelt (SiFive)
-Yocto Project/OpenEmbedded | [github](https://github.com/riscv/meta-riscv) |  | Khem Raj
+Yocto Project/OpenEmbedded | [github](https://github.com/riscv/meta-riscv) | MIT | Khem Raj
 Buildroot | [busybox.net](https://git.busybox.net/buildroot/) |  | Mark Corbin (Embecosm)
 
 ## Linux distributions
