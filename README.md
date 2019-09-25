@@ -19,7 +19,7 @@ to the list and fix inaccuracies.
 
 Name | Links | License | Maintainers
 ---- | ----- | ------- | -----------
-DBT-RISE-RISCV | [github](https://github.com/Minres/DBT-RISE-RISCV) | BSD-3-Clause | [MINRES Technologies](www.minres.com)
+DBT-RISE-RISCV | [github](https://github.com/Minres/DBT-RISE-RISCV) | BSD 3-Clause | [MINRES Technologies](www.minres.com)
 FireSim | [website](https://fires.im), [mailing list](https://groups.google.com/forum/#!forum/firesim), [github](https://github.com/firesim/firesim), [ISCA 2018 Paper](https://sagark.org/assets/pubs/firesim-isca2018.pdf) | BSD | Sagar Karandikar, Howard Mao, Donggyu Kim, David Biancolin, Alon Amid, [Berkeley Architecture Research](https://bar.eecs.berkeley.edu)
 gem5 | [SW-dev thread](https://groups.google.com/a/groups.riscv.org/forum/#!topic/sw-dev/se0TVeaA_JI), [repository](https://gem5.googlesource.com/public/gem5/) | BSD-style | Alec Roelke (University of Virginia)
 Imperas | [website](http://www.imperas.com/riscv) | Proprietary, models available under Apache 2.0 | [Imperas](http://www.imperas.com/)
@@ -59,7 +59,6 @@ TCF Debugger | [Website](https://projects.eclipse.org/projects/tools.cdt.tcf), [
 
 # C compilers and libraries
 
-
 Name | Links | License | Maintainers
 ---- | ----- | ------- | -----------
 GCC	| [Upstream](https://gcc.gnu.org/viewcvs/gcc/trunk/), [RISC-V repository](https://github.com/riscv/riscv-gcc) | GPLv3	| Andrew Waterman (SiFive), Palmer Dabbelt (SiFive), Jim Wilson (SiFive), Kito Cheng (Andes)
@@ -72,61 +71,12 @@ Musl	| -	| - | -
 
 # Boot loaders and monitors
 
-## coreboot ##
-
-* Maintainer(s): Ron Minnich (Google), Jonathan Neuschäfer
-* Version: master
-* Status: runs on spike, lowRISC/Nexys4DDR. Linux doesn't quite work yet.
-* Upstreaming status: upstream
-* Future work:
-* RISC-V repository:
-* Upstream repository: https://review.coreboot.org/cgit/coreboot.git/
-* Privileged Spec: 1.9
-* User Spec: 2.0
-* ABI:
-
-More information:
-* https://riscv.org/wp-content/uploads/2016/01/Tues1345-riscvcoreboot.pdf
-* https://www.youtube.com/watch?v=-KnwZzbvp1c (coreboot on RISC-V, Ron Minnich, RISC-V workshop)
-* https://www.youtube.com/watch?v=CDNIWuf1jAk (coreboot on RISC-V, Ron Minnich, coreboot conference 2016)
-
-## UEFI ##
-
-* Maintainer(s): Abner Chang, Dong Wei (HP Enterprise)
-* Version:
-* Status:
-* Upstreaming status:
-* Future work:
-* RISC-V repository:
-* Upstream repository:
-* Privileged Spec:
-* User Spec: 2.0
-* ABI:
-
-https://riscv.org/wp-content/uploads/2016/01/Tues1415-RISC-V-and-UEFI.pdf
-
-## Proxy Kernel/BBL ##
-
-* Maintainer(s):
-* Version:
-* Status:
-* Upstreaming status:
-* Future work:
-* Upstream repository: https://github.com/riscv/riscv-pk
-* Privileged Spec: 1.9.1
-* User Spec: 2.0
-* ABI:
-
-## OpenSBI
-* Maintainer(s): Anup Patel
-* Version: 0.3
-* Status: 
-* Upstreaming status:
-* Future work:
-* Upstream repository: https://github.com/riscv/opensbi
-* Privileged Spec: 1.9.1
-* User Spec:
-* ABI:
+Name | Links | License | Maintainers
+---- | ----- | ------- | -----------
+coreboot | [Upstream](https://review.coreboot.org/cgit/coreboot.git/) | GPLv2 | Ron Minnich (Google), Jonathan Neuschäfer
+U-Boot | [Upstream](https://gitlab.denx.de/u-boot/u-boot) | GPLv2 | Rick Chen (Andes)
+Proxy Kernel/BBL | [GitHub](https://github.com/riscv/riscv-pk) | BSD 3-clause | SiFive
+OpenSBI | [GitHub](https://github.com/riscv/opensbi) | BSD 2-clause | Anup Patel
 
 # OS and OS kernels
 
