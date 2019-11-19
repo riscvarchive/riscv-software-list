@@ -108,10 +108,10 @@ Name | Links | License | Maintainers
 ---- | ----- | ------- | -----------
 embOS | [Website](https://www.segger.com/embOS), [RISC-V port](https://www.segger.com/products/rtos/embos/supported-cores-compiler/sifive/risc-v/embos-riscv-es/) | SEGGER commercial license, free for non-commercial use | [SEGGER](https://www.segger.com/)
 RTEMS | [rtems.org](https://git.rtems.org/rtems/), [docs.rtems.org](https://docs.rtems.org/branches/master/user/bsps/bsps-riscv.html#riscv) | | Hesham Almatary
-FreeRTOS | [sourceforge](https://www.sourceforge.net/projects/freertos/) [freertos.org](https://www.freertos.org/Using-FreeRTOS-on-RISC-V.html) | | AWS
-Zephyr | [github](https://github.com/zephyrproject-rtos/zephyr/), [docs](http://docs.zephyrproject.org/boards/riscv32/index.html) | | Karol Gugala (Antmicro), Peter Gielda (Antmicro), Nathaniel Graff (SiFive)
+FreeRTOS | [sourceforge](https://www.sourceforge.net/projects/freertos/) [freertos.org](https://www.freertos.org/Using-FreeRTOS-on-RISC-V.html) | MIT | AWS
+Zephyr | [github](https://github.com/zephyrproject-rtos/zephyr/), [docs](http://docs.zephyrproject.org/boards/riscv32/index.html) | Apache 2.0 | Karol Gugala (Antmicro), Peter Gielda (Antmicro), Nathaniel Graff (SiFive)
 NuttX | [bitbucket.org](https://bitbucket.org/nuttx/nuttx/src/master/), [nuttx.org](http://nuttx.org/Documentation/NuttX.html#riscv) | | 
-Apache Mynewt | [riscv.org](https://riscv.org/wp-content/uploads/2016/07/Wed930_riscv_apachemynewt_v1.2.pdf) | | James Pace, Runtime
+Apache Mynewt | [riscv.org](https://riscv.org/wp-content/uploads/2016/07/Wed930_riscv_apachemynewt_v1.2.pdf) | Apache 2.0 | James Pace, Runtime
 OpenWrt | [github](https://git.openwrt.org/?p=openwrt/staging/wigyori.git;a=shortlog;h=refs/heads/kitchensink-201810), [binary repo](http://openwrt.uid0.hu) | | Zoltan Herpai
 seL4 | [github](https://github.com/heshamelmatary/sel4riscv-manifest/blob/master/sel4test-06032018.xml), [announcement](http://heshamelmatary.blogspot.com.au/2017/06/update-sel4risc-v-smp-support-sel4.html) | | Hesham Almatary and Data61/CSIRO
 
@@ -159,6 +159,7 @@ Secure IoT Stack | [GitHub](https://github.com/hex-five/multizone-secure-iot-sta
 MultiZone Security TEE & Enclave | [SDK](https://github.com/hex-five/multizone-sdk), [Enclave](https://github.com/hex-five/multizone-linux) |	Evaluation license | [Hex Five Security Inc.](http://www.hex-five.com/)
 Keystone Enclave | [Website](https://keystone-enclave.org), [Repositories](https://github.com/keystone-enclave) | BSD 3-clause | [Keystone Team](https://keystone-enclave.org/contact/)
 SecureRF | [Website](https://www.securerf.com/products/), [SDK](https://info.securerf.com/iot-embedded-sdk-development-kit) | Proprietary | [SecureRF Corp.](https://www.securerf.com)
+IntrinsicID | [Quiddikey](https://www.intrinsic-id.com/products/quiddikey/) | Proprietary | [Intrinsic ID](https://www.intrinsic-id.com/)
 
 # Help Wanted
 
