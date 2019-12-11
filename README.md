@@ -114,7 +114,7 @@ LiteOS | [github](https://github.com/LiteOS/LiteOS_Lab/), [docs](https://www.hua
 NuttX | [bitbucket.org](https://bitbucket.org/nuttx/nuttx/src/master/), [nuttx.org](http://nuttx.org/Documentation/NuttX.html#riscv) | | 
 Apache Mynewt | [riscv.org](https://riscv.org/wp-content/uploads/2016/07/Wed930_riscv_apachemynewt_v1.2.pdf) | Apache 2.0 | James Pace, Runtime
 OpenWrt | [github](https://git.openwrt.org/?p=openwrt/staging/wigyori.git;a=shortlog;h=refs/heads/kitchensink-201810), [binary repo](http://openwrt.uid0.hu) | | Zoltan Herpai
-seL4 | [github](https://github.com/heshamelmatary/sel4riscv-manifest/blob/master/sel4test-06032018.xml), [announcement](http://heshamelmatary.blogspot.com.au/2017/06/update-sel4risc-v-smp-support-sel4.html) | | Hesham Almatary and Data61/CSIRO
+seL4 | [github](https://github.com/seL4/seL4), [seL4.systems](https://sel4.systems/) | GPLv2 (kernel and proofs), various open-source licenses (userland)| [Trustworthy Systems group, Data61 CSIRO](https://ts.data61.csiro.au/)
 
 
 ## BSD distributions
