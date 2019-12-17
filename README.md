@@ -140,6 +140,8 @@ Rust	| [Upstream](https://github.com/rust-lang/rust/)	| Apache and MIT	| [Rust P
 muForth	| [Upstream](https://github.com/nimblemachines/muforth)	| ?	| David Frech
 ibForth	| [Upstream](https://github.com/larsbrinkhoff/lbForth)	| GPLv3	| Lars Brinkhoff
 Mecrisp-Quintis Forth kernel	| [Upstream](http://mecrisp.sourceforge.net/)	| ?	| Matthias Koch
+Mono | [Initial support in upstream](https://github.com/mono/mono/pull/11593) | MIT | [Alex Rønne Petersen](https://github.com/alexrp)
+
 
 # IDEs
 
