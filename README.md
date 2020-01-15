@@ -159,6 +159,8 @@ Name | Links | License | Maintainers
 ---- | ----- | ------- | -----------
 GNU MCU Eclipse | [Website](https://gnu-mcu-eclipse.github.io), [Repositories](https://github.com/gnu-mcu-eclipse), [Binary distribution](https://github.com/gnu-mcu-eclipse/org.eclipse.epp.packages/releases/) |	EPL-1.0 / various	| Liviu Ionescu
 Embedded Studio | [Website](https://www.segger.com/embeddedstudio), [RISC-V spec](https://www.segger.com/products/development-tools/embedded-studio/editions/risc-v/) | SEGGER commercial license, free for non-commercial use | [SEGGER](https://www.segger.com/)
+IAR Embedded Workbench | [Website](https://www.iar.com/iar-embedded-workbench/#!?architecture=RISC-V) | commercial | [IAR Systems](https://www.iar.com/)
+
 
 
 # Security
