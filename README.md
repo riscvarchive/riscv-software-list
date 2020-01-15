@@ -8,6 +8,7 @@ to the list and fix inaccuracies.
 * [Debugging](#debugging)
 * [C compilers and libraries](#c-compilers-and-libraries)
 * [Boot loaders and monitors](#boot-loaders-and-monitors)
+* [Hypervisor and related tools](#hypervisors-and-related-tools)
 * [OS and OS kernels](#os-and-os-kernels)
 * [Compilers and runtimes for other languages](#compilers-and-runtimes-for-other-languages)
 * [IDEs](#ides)
@@ -37,6 +38,7 @@ TinyEMU | [website](http://bellard.org/riscvemu/) | MIT | Fabrice Bellard
 Spike | [github](https://github.com/riscv/riscv-isa-sim) | BSD 3-clause | Andrew Waterman & Yunsup Lee (SiFive)
 Swerv-ISS  | [github](https://github.com/westerndigitalcorporation/swerv-ISS) | GPL - 3 | Joseph Rahmeh (Western Digital) 
 VLAB  | [VLAB Works](http://vlabworks.com/) | Proprietary | [ASTC](http://astc-design.com/)
+WebRISC-V | [github](https://github.com/Mariotti94/WebRISC-V)| BSD 3-clause | Gianfranco Mariotti, Roberto Giorgi  (University of Siena)
 
 # Object toolchain
 
@@ -57,7 +59,7 @@ GNU MCU Eclipse OpenOCD | [Website](https://gnu-mcu-eclipse.github.io/openocd/),
 Ozone - the J-Link Debugger | [Website](https://www.segger.com/ozone) | SEGGER commercial license (J-Link PLUS) | [SEGGER](https://www.segger.com/)
 Imperas Multi Processor Debugger | [Website](http://www.imperas.com/riscv#debug) | Imperas Commercial License | [Imperas](http://www.imperas.com/)
 TCF Debugger | [Website](https://projects.eclipse.org/projects/tools.cdt.tcf), [GitHub](https://github.com/eclipse/tcf.agent) | Eclipse Distribution License 1.0 (BSD) / Eclipse Public License 1.0 | Sanimir Agovic
-PlatformIO Unified Debugger | [Website](https://docs.platformio.org/en/latest/plus/debugging.html) | Apache 2.0 | [PlatformIO](https://platformio.org/)
+PlatformIO Unified Debugger | [Docs](https://docs.platformio.org/en/latest/plus/debugging.html) | Apache 2.0 | [PlatformIO](https://platformio.org/)
 
 # C compilers and libraries
 
@@ -79,7 +81,15 @@ Name | Links | License | Maintainers
 coreboot | [Upstream](https://review.coreboot.org/cgit/coreboot.git/) | GPLv2 | Ron Minnich (Google), Jonathan Neuschäfer
 U-Boot | [Upstream](https://gitlab.denx.de/u-boot/u-boot) | GPLv2 | Rick Chen (Andes)
 Proxy Kernel/BBL | [GitHub](https://github.com/riscv/riscv-pk) | BSD 3-clause | SiFive
-OpenSBI | [GitHub](https://github.com/riscv/opensbi) | BSD 2-clause | Anup Patel
+OpenSBI | [GitHub](https://github.com/riscv/opensbi) | BSD 2-clause | Anup Patel (Western Digital), Atish Patra (Western Digital)
+
+# Hypervisors and related tools
+
+Name | Links | License | Brief | Maintainers
+---- | ----- | ------- | ----- | -----------
+Xvisor | [Website](http://xhypervisor.org), [Upstream](https://github.com/xvisor/xvisor.git), [RISC-V Repo](https://github.com/avpatel/xvisor-next.git) | GPLv2 | Type-1 baremetal monolithic hypervisor | Anup Patel (Western Digital)
+KVM | [Website](https://www.linux-kvm.org), [RISC-V Repo](https://github.com/kvm-riscv/linux.git), [RISC-V Wiki](https://github.com/kvm-riscv/howto/wiki) | GPLv2 | Type-2 hypervisor | Anup Patel (Western Digital), Atish Patra (Western Digital)
+KVMTOOL | [Upstream](https://git.kernel.org/pub/scm/linux/kernel/git/will/kvmtool.git), [RISC-V Repo](https://github.com/kvm-riscv/kvmtool.git)  | GPLv2 | Userspace tool for the KVM hypervisor | Anup Patel (Western Digital), Atish Patra (Western Digital)
 
 # OS and OS kernels
 
@@ -150,7 +160,8 @@ Name | Links | License | Maintainers
 ---- | ----- | ------- | -----------
 GNU MCU Eclipse | [Website](https://gnu-mcu-eclipse.github.io), [Repositories](https://github.com/gnu-mcu-eclipse), [Binary distribution](https://github.com/gnu-mcu-eclipse/org.eclipse.epp.packages/releases/) |	EPL-1.0 / various	| Liviu Ionescu
 Embedded Studio | [Website](https://www.segger.com/embeddedstudio), [RISC-V spec](https://www.segger.com/products/development-tools/embedded-studio/editions/risc-v/) | SEGGER commercial license, free for non-commercial use | [SEGGER](https://www.segger.com/)
-PlatformIO | [Website](https://platformio.org/), [PlatformIO IDE](https://platformio.org/platformio-ide), [Integration with Cloud & Desktop IDEs](https://docs.platformio.org/en/latest/ide.html) | Apache 2.0 | [PlatformIO](https://platformio.org/)
+IAR Embedded Workbench | [Website](https://www.iar.com/iar-embedded-workbench/#!?architecture=RISC-V) | commercial | [IAR Systems](https://www.iar.com/)
+PlatformIO | [Website](https://platformio.org/), [IDE](https://platformio.org/platformio-ide), [Docs](https://docs.platformio.org/en/latest/) | Apache 2.0 | [PlatformIO](https://platformio.org/)
 
 
 # Security
@@ -165,6 +176,7 @@ MultiZone Security TEE & Enclave | [SDK](https://github.com/hex-five/multizone-s
 Keystone Enclave | [Website](https://keystone-enclave.org), [Repositories](https://github.com/keystone-enclave) | BSD 3-clause | [Keystone Team](https://keystone-enclave.org/contact/)
 SecureRF | [Website](https://www.securerf.com/products/), [SDK](https://info.securerf.com/iot-embedded-sdk-development-kit) | Proprietary | [SecureRF Corp.](https://www.securerf.com)
 IntrinsicID | [Quiddikey](https://www.intrinsic-id.com/products/quiddikey/) | Proprietary | [Intrinsic ID](https://www.intrinsic-id.com/)
+Penglai Enclave | [Website](http://penglai-enclave.systems), [GitHub](https://github.com/Penglai-Enclave) | Mulan PSL v1 | [IPADS](https://ipads.se.sjtu.edu.cn/)
 
 # Help Wanted
 
