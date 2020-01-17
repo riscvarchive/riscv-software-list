@@ -146,7 +146,7 @@ Jikes RVM (Java Virtual Machine)	| [Upstream](https://github.com/JikesRVM/JikesR
 OpenJDK/HotSpot (Java Virtual Machine)	| ?	| ?	| Alexey Baturo, Michael Knysnek, Martin Maas
 Free Pascal	| [Upstream](https://svn.freepascal.org/cgi-bin/viewvc.cgi/trunk/)	| ?	| Jeppe Johansen and others
 Nim	| [Upstream](https://nim-lang.org/)	| MIT	| Andreas Rumpf and others
-Ada (GNAT)	| [Upstream](https://gcc.gnu.org/viewcvs/gcc/trunk/)	| Proprietary	| [AdaCore](http://adacore.com)
+Ada (GNAT)	| [Upstream](https://gcc.gnu.org/viewcvs/gcc/trunk/)	| GPLv3 with linking exception	| [AdaCore](http://adacore.com)
 Rust	| [Upstream](https://github.com/rust-lang/rust/)	| Apache and MIT	| [Rust Project](https://www.rust-lang.org/)
 muForth	| [Upstream](https://github.com/nimblemachines/muforth)	| ?	| David Frech
 ibForth	| [Upstream](https://github.com/larsbrinkhoff/lbForth)	| GPLv3	| Lars Brinkhoff
