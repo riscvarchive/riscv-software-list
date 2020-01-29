@@ -39,7 +39,7 @@ Spike | [github](https://github.com/riscv/riscv-isa-sim) | BSD 3-clause | Andrew
 Swerv-ISS  | [github](https://github.com/westerndigitalcorporation/swerv-ISS) | GPL - 3 | Joseph Rahmeh (Western Digital) 
 VLAB  | [VLAB Works](http://vlabworks.com/) | Proprietary | [ASTC](http://astc-design.com/)
 WebRISC-V | [github](https://github.com/Mariotti94/WebRISC-V)| BSD 3-clause | Gianfranco Mariotti, Roberto Giorgi  (University of Siena)
-PQSE | [website](https://pqsoc.com) | Proprietary | [PQShield](https://pqshield.com)
+PQSE | [website](https://pqsoc.com/software/) | Proprietary | [PQShield](https://pqshield.com)
 
 # Object toolchain
 
