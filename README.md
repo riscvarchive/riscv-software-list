@@ -185,7 +185,8 @@ PQSLIB / PQSoC | [Website](https://pqsoc.com) | Proprietary | [PQShield](https:/
 # Board Support Packages (BSPs)
 
 Name | Links | License | Maintainers
-RT-Thread/HIFIVE1 BSP | https://github.com/RT-Thread/rt-thread/tree/master/bsp/hifive1 | Apache 2.0 | tanek
+---- | ----- | ------- | -----------
+RT-Thread/HIFIVE1 BSP | [github](https://github.com/RT-Thread/rt-thread/tree/master/bsp/hifive1) | Apache 2.0 | tanek
 
 
 # Help Wanted
