@@ -127,6 +127,7 @@ NuttX | [bitbucket.org](https://bitbucket.org/nuttx/nuttx/src/master/), [nuttx.o
 Apache Mynewt | [riscv.org](https://riscv.org/wp-content/uploads/2016/07/Wed930_riscv_apachemynewt_v1.2.pdf) | Apache 2.0 | James Pace, Runtime
 OpenWrt | [github](https://git.openwrt.org/?p=openwrt/staging/wigyori.git;a=shortlog;h=refs/heads/kitchensink-201810), [binary repo](http://openwrt.uid0.hu) | | Zoltan Herpai
 seL4 | [github](https://github.com/seL4/seL4), [seL4.systems](https://sel4.systems/) | GPLv2 (kernel and proofs), various open-source licenses (userland)| [Trustworthy Systems group, Data61 CSIRO](https://ts.data61.csiro.au/)
+RT-Thread | [github](https://github.com/RT-Thread), [rt-thread.org](https://www.rt-thread.org/) | Apache 2.0  | RT-Thread
 
 
 ## BSD distributions
@@ -184,7 +185,7 @@ PQSLIB / PQSoC | [Website](https://pqsoc.com) | Proprietary | [PQShield](https:/
 # Board Support Packages (BSPs)
 
 Name | Links | License | Maintainers
----- | ----- | ------- | -----------
+RT-Thread/HIFIVE1 BSP | https://github.com/RT-Thread/rt-thread/tree/master/bsp/hifive1 | Apache 2.0 | tanek
 
 
 # Help Wanted
