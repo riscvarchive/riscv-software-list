@@ -46,7 +46,7 @@ PQSE | [website](https://pqsoc.com/software/) | Proprietary | [PQShield](https:/
 Name | Links | License | Maintainers
 ---- | ----- | ------- | -----------
 Binutils | [RISC-V repo](https://github.com/riscv/riscv-binutils-gdb), [Upstream repos](https://sourceware.org/git/gitweb.cgi?p=binutils-gdb.git) | GPLv2 | Andrew Waterman, Palmer Dabbelt & Jim Wilson (SiFive)
-LLVM | [GitHub mirror](https://github.com/llvm-mirror/llvm/tree/master/lib/Target/RISCV) | Apache 2.0 with LLVM exception | Alex Bradbury (lowRISC)
+LLVM | [GitHub mirror](https://github.com/llvm/llvm-project/tree/master/llvm/lib/Target/RISCV) | Apache 2.0 with LLVM exception | Alex Bradbury (lowRISC)
 Cranelift | [GitHub](https://github.com/CraneStation/cranelift) | Apache 2.0 | [Cranelift core team](https://github.com/orgs/CraneStation/people/)
 
 # Debugging
@@ -68,7 +68,7 @@ Name | Links | License | Maintainers
 ---- | ----- | ------- | -----------
 GCC	| [Upstream](https://gcc.gnu.org/viewcvs/gcc/trunk/), [RISC-V repository](https://github.com/riscv/riscv-gcc) | GPLv3	| Andrew Waterman (SiFive), Palmer Dabbelt (SiFive), Jim Wilson (SiFive), Kito Cheng (Andes)
 GNU MCU Eclipse RISC-V Embedded GCC (riscv-non-embed-gcc)	| [Web](https://gnu-mcu-eclipse.github.io/toolchain/riscv/), [Repository](https://github.com/gnu-mcu-eclipse/riscv-none-gcc), [Build](https://github.com/gnu-mcu-eclipse/riscv-none-gcc-build), [Binary package installer](https://www.npmjs.com/package/@gnu-mcu-eclipse/riscv-none-gcc)	| Eclipse Public License |	Liviu lonescu
-Clang/LLVM	| [Upstream](https://github.com/llvm-mirror/llvm)	| Apache 2.0	| Alex Bradbury (lowRISC)
+Clang/LLVM	| [Upstream](https://github.com/llvm/llvm-project)	| Apache 2.0	| Alex Bradbury (lowRISC)
 CompCert	| [Upstream](https://github.com/AbsInt/CompCert.git)	| INRIA Non-Commercial License Agreement	| Xavier Leroy
 Glibc	| [Upstream](https://sourceware.org/git/?p=glibc.git), [RISC-V repository](https://github.com/riscv/riscv-glibc) |	GPLv2 |	Palmer Dabbelt (SiFive), Andrew Waterman (SiFive), DJ Delorie (Red Hat), Darius Rad(Bluespec)
 Newlib	| [Upstream](http://cygwin.com/git/gitweb.cgi?p=newlib-cygwin.git), [RISC-V repository](https://github.com/riscv/riscv-newlib)	| GPLv2	| Kito Cheng (Andes)
