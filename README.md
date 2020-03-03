@@ -13,6 +13,7 @@ to the list and fix inaccuracies.
 * [Compilers and runtimes for other languages](#compilers-and-runtimes-for-other-languages)
 * [IDEs](#ides)
 * [Security](#security)
+* [Machine Learning / AI](#machine-learning--ai)
 
 **We would like to enlist community help for the software ports in the [Help Wanted](#help-wanted) section.**
 
@@ -181,6 +182,12 @@ SecureRF | [Website](https://www.securerf.com/products/), [SDK](https://info.sec
 IntrinsicID | [Quiddikey](https://www.intrinsic-id.com/products/quiddikey/) | Proprietary | [Intrinsic ID](https://www.intrinsic-id.com/)
 Penglai Enclave | [Website](http://penglai-enclave.systems), [GitHub](https://github.com/Penglai-Enclave) | Mulan PSL v1 | [IPADS](https://ipads.se.sjtu.edu.cn/)
 PQSLIB / PQSoC | [Website](https://pqsoc.com) | Proprietary | [PQShield](https://pqshield.com)
+
+# Machine Learning / AI
+
+Name | Links | License | Maintainers
+---- | ----- | ------- | -----------
+TF Lite | [demo](https://github.com/antmicro/litex-vexriscv-tensorflow-lite-demo), [blog note](https://antmicro.com/blog/2019/12/tflite-in-zephyr-on-litex-vexriscv/) | Apache 2.0 |  [Antmicro](https://antmicro.com) / [Google TF Lite team](https://www.tensorflow.org/lite)
 
 # Board Support Packages (BSPs)
 
