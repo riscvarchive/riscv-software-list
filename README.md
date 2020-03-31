@@ -13,6 +13,7 @@ to the list and fix inaccuracies.
 * [Compilers and runtimes for other languages](#compilers-and-runtimes-for-other-languages)
 * [IDEs](#ides)
 * [Security](#security)
+* [Machine Learning / AI](#machine-learning--ai)
 
 **We would like to enlist community help for the software ports in the [Help Wanted](#help-wanted) section.**
 
@@ -40,12 +41,13 @@ Swerv-ISS  | [github](https://github.com/westerndigitalcorporation/swerv-ISS) | 
 VLAB  | [VLAB Works](http://vlabworks.com/) | Proprietary | [ASTC](http://astc-design.com/)
 WebRISC-V | [github](https://github.com/Mariotti94/WebRISC-V)| BSD 3-clause | Gianfranco Mariotti, Roberto Giorgi  (University of Siena)
 PQSE | [website](https://pqsoc.com/software/) | Proprietary | [PQShield](https://pqshield.com)
+riscv-rust | [website](https://takahirox.github.io/riscv-rust/index.html) [github](https://github.com/takahirox/riscv-rust) | MIT | Takahiro Aoyagi
 
 # Object toolchain
 
 Name | Links | License | Maintainers
 ---- | ----- | ------- | -----------
-Binutils | [RISC-V repo](https://github.com/riscv/riscv-binutils-gdb), [Upstream repos](https://sourceware.org/git/gitweb.cgi?p=binutils-gdb.git) | GPLv2 | Andrew Waterman, Palmer Dabbelt & Jim Wilson (SiFive)
+Binutils | [RISC-V repo](https://github.com/riscv/riscv-binutils-gdb), [Upstream repos](https://sourceware.org/git/gitweb.cgi?p=binutils-gdb.git) | GPLv2 | Andrew Waterman (SiFive), Palmer Dabbelt (Google) & Jim Wilson (SiFive)
 LLVM | [GitHub mirror](https://github.com/llvm/llvm-project/tree/master/llvm/lib/Target/RISCV) | Apache 2.0 with LLVM exception | Alex Bradbury (lowRISC)
 Cranelift | [GitHub](https://github.com/CraneStation/cranelift) | Apache 2.0 | [Cranelift core team](https://github.com/orgs/CraneStation/people/)
 
@@ -54,8 +56,8 @@ Cranelift | [GitHub](https://github.com/CraneStation/cranelift) | Apache 2.0 | [
 
 Name | Links | License | Maintainers
 ---- | ----- | ------- | -----------
-GDB | [Upstream](https://sourceware.org/git/gitweb.cgi?p=binutils-gdb.git) | GPLv2 | Andrew Burgess (Embecosm), Palmer Dabbelt (SiFive)
-OpenOCD | [Upstream repo](https://sourceforge.net/p/openocd/code/ci/master/tree/), [RISC-V repo](https://github.com/riscv/riscv-openocd) | GPLv2 | Tim Newsome, Megan Wachs, Palmer Dabbelt (SiFive)
+GDB | [Upstream](https://sourceware.org/git/gitweb.cgi?p=binutils-gdb.git) | GPLv2 | Andrew Burgess (Embecosm), Palmer Dabbelt (Google)
+OpenOCD | [Upstream repo](https://sourceforge.net/p/openocd/code/ci/master/tree/), [RISC-V repo](https://github.com/riscv/riscv-openocd) | GPLv2 | Tim Newsome, Megan Wachs, Palmer Dabbelt (Google)
 GNU MCU Eclipse OpenOCD | [Website](https://gnu-mcu-eclipse.github.io/openocd/), [GitHub](https://github.com/gnu-mcu-eclipse/openocd) | GPLv2 | Liviu Ionescu
 Ozone - the J-Link Debugger | [Website](https://www.segger.com/ozone) | SEGGER commercial license (J-Link PLUS) | [SEGGER](https://www.segger.com/)
 Imperas Multi Processor Debugger | [Website](http://www.imperas.com/riscv#debug) | Imperas Commercial License | [Imperas](http://www.imperas.com/)
@@ -66,12 +68,12 @@ PlatformIO Unified Debugger | [Docs](https://docs.platformio.org/en/latest/plus/
 
 Name | Links | License | Maintainers
 ---- | ----- | ------- | -----------
-GCC	| [Upstream](https://gcc.gnu.org/viewcvs/gcc/trunk/), [RISC-V repository](https://github.com/riscv/riscv-gcc) | GPLv3	| Andrew Waterman (SiFive), Palmer Dabbelt (SiFive), Jim Wilson (SiFive), Kito Cheng (Andes)
+GCC	| [Upstream](https://gcc.gnu.org/viewcvs/gcc/trunk/), [RISC-V repository](https://github.com/riscv/riscv-gcc) | GPLv3	| Andrew Waterman (SiFive), Palmer Dabbelt (Google), Jim Wilson (SiFive), Kito Cheng (SiFive)
 GNU MCU Eclipse RISC-V Embedded GCC (riscv-non-embed-gcc)	| [Web](https://gnu-mcu-eclipse.github.io/toolchain/riscv/), [Repository](https://github.com/gnu-mcu-eclipse/riscv-none-gcc), [Build](https://github.com/gnu-mcu-eclipse/riscv-none-gcc-build), [Binary package installer](https://www.npmjs.com/package/@gnu-mcu-eclipse/riscv-none-gcc)	| Eclipse Public License |	Liviu lonescu
 Clang/LLVM	| [Upstream](https://github.com/llvm/llvm-project)	| Apache 2.0	| Alex Bradbury (lowRISC)
 CompCert	| [Upstream](https://github.com/AbsInt/CompCert.git)	| INRIA Non-Commercial License Agreement	| Xavier Leroy
-Glibc	| [Upstream](https://sourceware.org/git/?p=glibc.git), [RISC-V repository](https://github.com/riscv/riscv-glibc) |	GPLv2 |	Palmer Dabbelt (SiFive), Andrew Waterman (SiFive), DJ Delorie (Red Hat), Darius Rad(Bluespec)
-Newlib	| [Upstream](http://cygwin.com/git/gitweb.cgi?p=newlib-cygwin.git), [RISC-V repository](https://github.com/riscv/riscv-newlib)	| GPLv2	| Kito Cheng (Andes)
+Glibc	| [Upstream](https://sourceware.org/git/?p=glibc.git), [RISC-V repository](https://github.com/riscv/riscv-glibc) |	GPLv2 |	Palmer Dabbelt (Google), Andrew Waterman (SiFive), DJ Delorie (Red Hat), Darius Rad(Bluespec)
+Newlib	| [Upstream](http://cygwin.com/git/gitweb.cgi?p=newlib-cygwin.git), [RISC-V repository](https://github.com/riscv/riscv-newlib)	| GPLv2	| Kito Cheng (SiFive)
 SEGGER Runtime Library | [Website](https://www.segger.com/products/development-tools/runtime-library/) | SEGGER commercial license | [SEGGER](https://www.segger.com/)
 Musl	| -	| - | -
 
@@ -98,7 +100,7 @@ KVMTOOL | [Upstream](https://git.kernel.org/pub/scm/linux/kernel/git/will/kvmtoo
 
 Name | Links | License | Maintainers
 ---- | ----- | ------- | -----------
-Linux Kernel | [github](https://github.com/riscv/riscv-linux), [kernel.org](https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git) | GPLv2 | Andrew Waterman (SiFive), Albert Ou (SiFive), Palmer Dabbelt (SiFive)
+Linux Kernel | [github](https://github.com/riscv/riscv-linux), [kernel.org](https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git) | GPLv2 | Andrew Waterman (SiFive), Albert Ou (SiFive), Palmer Dabbelt (Google)
 Yocto Project/OpenEmbedded | [github](https://github.com/riscv/meta-riscv) | MIT | Khem Raj
 Buildroot | [busybox.net](https://git.busybox.net/buildroot/) |  | Mark Corbin (Embecosm)
 
@@ -181,6 +183,12 @@ SecureRF | [Website](https://www.securerf.com/products/), [SDK](https://info.sec
 IntrinsicID | [Quiddikey](https://www.intrinsic-id.com/products/quiddikey/) | Proprietary | [Intrinsic ID](https://www.intrinsic-id.com/)
 Penglai Enclave | [Website](http://penglai-enclave.systems), [GitHub](https://github.com/Penglai-Enclave) | Mulan PSL v1 | [IPADS](https://ipads.se.sjtu.edu.cn/)
 PQSLIB / PQSoC | [Website](https://pqsoc.com) | Proprietary | [PQShield](https://pqshield.com)
+
+# Machine Learning / AI
+
+Name | Links | License | Maintainers
+---- | ----- | ------- | -----------
+TF Lite | [demo](https://github.com/antmicro/litex-vexriscv-tensorflow-lite-demo), [blog note](https://antmicro.com/blog/2019/12/tflite-in-zephyr-on-litex-vexriscv/) | Apache 2.0 |  [Antmicro](https://antmicro.com) / [Google TF Lite team](https://www.tensorflow.org/lite)
 
 # Board Support Packages (BSPs)
 
