@@ -1,7 +1,7 @@
 # RISC-V Software Ecosystem Overview
 
 This document captures the status of the RISC-V Software Ecosystem. Please add
-to the list and fix inaccuracies.
+to the list and fix inaccuracies by making a Pull Request against the [software list repository on GitHub](https://github.com/riscv/riscv-software-list).
 
 * [Simulators](#simulators)
 * [Object toolchain](#object-toolchain)
