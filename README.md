@@ -130,7 +130,7 @@ Apache Mynewt | [riscv.org](https://riscv.org/wp-content/uploads/2016/07/Wed930_
 OpenWrt | [github](https://git.openwrt.org/?p=openwrt/staging/wigyori.git;a=shortlog;h=refs/heads/kitchensink-201810), [binary repo](http://openwrt.uid0.hu) | | Zoltan Herpai
 seL4 | [github](https://github.com/seL4/seL4), [seL4.systems](https://sel4.systems/) | GPLv2 (kernel and proofs), various open-source licenses (userland)| [Trustworthy Systems group, Data61 CSIRO](https://ts.data61.csiro.au/)
 RT-Thread | [github](https://github.com/RT-Thread), [rt-thread.org](https://www.rt-thread.org/) | Apache 2.0  | RT-Thread
-
+PikeOS | [Press release](https://www.sysgo.com/news-events/news-articles/article/sysgo-adds-risc-v-support-to-its-pikeos-real-time-operating-system) | Proprietary | SYSGO
 
 ## BSD distributions
 
