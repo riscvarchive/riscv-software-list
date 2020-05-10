@@ -76,7 +76,7 @@ CompCert	| [Upstream](https://github.com/AbsInt/CompCert.git)	| INRIA Non-Commer
 Glibc	| [Upstream](https://sourceware.org/git/?p=glibc.git), [RISC-V repository](https://github.com/riscv/riscv-glibc) |	GPLv2 |	Palmer Dabbelt (Google), Andrew Waterman (SiFive), DJ Delorie (Red Hat), Darius Rad(Bluespec)
 Newlib	| [Upstream](http://cygwin.com/git/gitweb.cgi?p=newlib-cygwin.git), [RISC-V repository](https://github.com/riscv/riscv-newlib)	| GPLv2	| Kito Cheng (SiFive)
 SEGGER Runtime Library | [Website](https://www.segger.com/products/development-tools/runtime-library/) | SEGGER commercial license | [SEGGER](https://www.segger.com/)
-Musl	| -	| - | -
+Musl | [GitHub](https://github.com/riscv/riscv-musl)	| MIT | -
 
 # Boot loaders and monitors
 
