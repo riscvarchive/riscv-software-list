@@ -150,6 +150,7 @@ Ocaml	| [Upstream](https://github.com/ocaml/ocaml), [RISC-V repository](https://
 Maxine VM (Java Virtual Machine)	| [Upstream](https://github.com/beehive-lab/Maxine-VM)	| GPLv2	| Maxine team
 Jikes RVM (Java Virtual Machine)	| [Upstream](https://github.com/JikesRVM/JikesRVM)	| Eclipse Public License (EPL)	| Martin Maas (University of California, Berkeley)
 OpenJDK/HotSpot (Java Virtual Machine)	| ?	| ?	| Alexey Baturo, Michael Knysnek, Martin Maas
+OpenJDK/OpenJ9 (Java Virtual Machine)	| [Upstream](https://github.com/eclipse/openj9)	| Eclipse Public License 2.0 (EPLv2) with ClassPath Exception & Apache 2.0	| [Cheng Jin](https://github.com/ChengJin01)
 Free Pascal	| [Upstream](https://svn.freepascal.org/cgi-bin/viewvc.cgi/trunk/)	| ?	| Jeppe Johansen and others
 Nim	| [Upstream](https://nim-lang.org/)	| MIT	| Andreas Rumpf and others
 Ada (GNAT)	| [Upstream](https://gcc.gnu.org/viewcvs/gcc/trunk/)	| GPLv3 with linking exception	| [AdaCore](http://adacore.com)
