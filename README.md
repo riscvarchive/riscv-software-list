@@ -116,7 +116,7 @@ OpenMandriva | [openmandriva.org](http://abf-downloads.openmandriva.org/cooker/r
 openSUSE | [opensuse.org](https://build.opensuse.org/project/show/openSUSE:Factory:RISCV) |  | Andreas Schwab (SUSE)
 Gentoo | [github](https://github.com/palmer-dabbelt/riscv-gentoo) |  | Palmer Dabbelt (University of California, Berkeley)
 Parabola GNU/Linux-libre | [github](https://github.com/oaken-source/parabola-riscv64-bootstrap), [parabola.nu](https://git.parabola.nu/abslibre.git) | | Andreas Grapentin (University of Potsdam, HPI)
-januslinux | [github](https://github.com/ataraxialinux/ataraxia) |  | protonesso
+Ataraxia Linux | [github](https://github.com/ataraxialinux/ataraxia) |  | protonesso
 
 ## Real-time Operating Systems
 
