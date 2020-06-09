@@ -134,6 +134,7 @@ OpenWrt | [github](https://git.openwrt.org/?p=openwrt/staging/wigyori.git;a=shor
 seL4 | [github](https://github.com/seL4/seL4), [seL4.systems](https://sel4.systems/) | GPLv2 (kernel and proofs), various open-source licenses (userland)| [Trustworthy Systems group, Data61 CSIRO](https://ts.data61.csiro.au/)
 RT-Thread | [github](https://github.com/RT-Thread), [rt-thread.org](https://www.rt-thread.org/) | Apache 2.0  | RT-Thread
 PikeOS | [Press release](https://www.sysgo.com/news-events/news-articles/article/sysgo-adds-risc-v-support-to-its-pikeos-real-time-operating-system) | Proprietary | SYSGO
+VxWorks | [Press release](https://www.windriver.com/news/press/pr.html?ID=22570) | Proprietary | [Wind River](https://www.windriver.com)
 
 ## BSD distributions
 
