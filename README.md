@@ -81,6 +81,12 @@ SEGGER Runtime Library | [Website](https://www.segger.com/products/development-t
 SEGGER Floating Point Library | [Website](https://www.segger.com/products/development-tools/runtime-library/technology/floating-point-library/) | SEGGER commercial license | [SEGGER](https://www.segger.com/)
 Musl | [GitHub](https://github.com/riscv/riscv-musl)	| MIT | -
 
+# SDKs - Command Line Toolchains
+Name | Links | License | Maintainers
+---- | ----- | ------- | -----------
+GCC Sourcery CodeBench Lite  |(Website)(https://www.mentor.com/embedded-software/toolchain-services/codebench-lite-downloads) | GPLv3 | [Mentor, a Siemens Business](www.mentor.com)
+LLVM Sourcery CodeBench Lite| (Website)(https://www.mentor.com/embedded-software/toolchain-services/codebench-lite-downloads) | Apache 2.0 | [Mentor, a Siemens Business](www.mentor.com)
+
 # Boot loaders and monitors
 
 Name | Links | License | Maintainers
