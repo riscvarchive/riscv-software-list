@@ -43,6 +43,7 @@ WebRISC-V | [github](https://github.com/Mariotti94/WebRISC-V)| BSD 3-clause | Gi
 PQSE | [website](https://pqsoc.com/software/) | Proprietary | [PQShield](https://pqshield.com)
 riscv-rust | [website](https://takahirox.github.io/riscv-rust/index.html) [github](https://github.com/takahirox/riscv-rust) | MIT | Takahiro Aoyagi
 terminus | [github](https://github.com/shady831213/terminus) | MIT | [Yang Li](https://github.com/shady831213)
+Vulcan   | [github](https://github.com/vmmc2/Vulcan) | MIT | [Victor Costa](https://github.com/vmmc2)
 
 # Object toolchain
 
