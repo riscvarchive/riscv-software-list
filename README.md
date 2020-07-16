@@ -164,7 +164,7 @@ ibForth	| [Upstream](https://github.com/larsbrinkhoff/lbForth)	| GPLv3	| Lars Br
 Mecrisp-Quintis Forth kernel	| [Upstream](http://mecrisp.sourceforge.net/)	| ?	| Matthias Koch
 Mono | [Initial support in upstream](https://github.com/mono/mono/pull/11593) | MIT | [Alex Rønne Petersen](https://github.com/alexrp)
 Zen	| [Zen-Lang.org](https://www.zen-lang.org/)	| Commercial, AGPLv3 | [connectFree Corporation](http://connectfree.co.jp/)
-V8 (JavaScript Engine)	| [github](https://github.com/isrc-cas/v8-riscv)	| BSD | [PLCT Lab](https://isrc.iscas.ac.cn)
+V8 (JS)	| [github(by RIOS/Futurewei)](https://github.com/v8-riscv/v8), [github(by PLCT)](https://github.com/isrc-cas/v8-riscv)	| BSD | [RIOS](http://rioslab.org/)/[Futurewei](https://www.futurewei.com/), [PLCT Lab](https://isrc.iscas.ac.cn)
 
 
 # IDEs
@@ -208,6 +208,5 @@ RT-Thread/HIFIVE1 BSP | [github](https://github.com/RT-Thread/rt-thread/tree/mas
 
 # Help Wanted
 
-* V8
 * Node.js
 * Dart
