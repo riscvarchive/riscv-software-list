@@ -11,7 +11,7 @@ to the list and fix inaccuracies by making a Pull Request against the [software 
 * [Hypervisor and related tools](#hypervisors-and-related-tools)
 * [OS and OS kernels](#os-and-os-kernels)
 * [Compilers and runtimes for other languages](#compilers-and-runtimes-for-other-languages)
-* [IDEs](#ides-sdks-and-binary-toolchain-distributions)
+* [IDEs, SDKs and binary toolchain distributions](#ides-sdks-and-binary-toolchain-distributions)
 * [Security](#security)
 * [Machine Learning / AI](#machine-learning--ai)
 
