@@ -11,7 +11,7 @@ to the list and fix inaccuracies by making a Pull Request against the [software 
 * [Hypervisor and related tools](#hypervisors-and-related-tools)
 * [OS and OS kernels](#os-and-os-kernels)
 * [Compilers and runtimes for other languages](#compilers-and-runtimes-for-other-languages)
-* [IDEs](#ides)
+* [IDEs](#ides-sdks-and-binary-toolchain-distributions)
 * [Security](#security)
 * [Machine Learning / AI](#machine-learning--ai)
 
@@ -43,6 +43,7 @@ WebRISC-V | [github](https://github.com/Mariotti94/WebRISC-V)| BSD 3-clause | Gi
 PQSE | [website](https://pqsoc.com/software/) | Proprietary | [PQShield](https://pqshield.com)
 riscv-rust | [website](https://takahirox.github.io/riscv-rust/index.html) [github](https://github.com/takahirox/riscv-rust) | MIT | Takahiro Aoyagi
 terminus | [github](https://github.com/shady831213/terminus) | MIT | [Yang Li](https://github.com/shady831213)
+Vulcan   | [github](https://github.com/vmmc2/Vulcan) | MIT | [Victor Miguel de Morais Costa](https://github.com/vmmc2)
 
 # Object toolchain
 
@@ -58,7 +59,7 @@ Cranelift | [GitHub](https://github.com/CraneStation/cranelift) | Apache 2.0 | [
 Name | Links | License | Maintainers
 ---- | ----- | ------- | -----------
 GDB | [Upstream](https://sourceware.org/git/gitweb.cgi?p=binutils-gdb.git) | GPLv2 | Andrew Burgess (Embecosm), Palmer Dabbelt (Google)
-OpenOCD | [Upstream repo](https://sourceforge.net/p/openocd/code/ci/master/tree/), [RISC-V repo](https://github.com/riscv/riscv-openocd) | GPLv2 | Tim Newsome, Megan Wachs, Palmer Dabbelt (Google)
+OpenOCD | [Upstream repo](https://sourceforge.net/p/openocd/code/ci/master/tree/), [RISC-V repo](https://github.com/riscv/riscv-openocd) | GPLv2 | Tim Newsome (SiFive), Megan Wachs (SiFive), Palmer Dabbelt (Google)
 GNU MCU Eclipse OpenOCD | [Website](https://gnu-mcu-eclipse.github.io/openocd/), [GitHub](https://github.com/gnu-mcu-eclipse/openocd) | GPLv2 | Liviu Ionescu
 TRACE32 JTAG Debugger | [Website](https://www.lauterbach.com/bdmriscv.html) | TRACE32 license | [Lauterbach](https://www.lauterbach.com)
 Ozone - the J-Link Debugger | [Website](https://www.segger.com/ozone) | SEGGER commercial license (J-Link PLUS) | [SEGGER](https://www.segger.com/)
@@ -80,12 +81,6 @@ Newlib	| [Upstream](http://cygwin.com/git/gitweb.cgi?p=newlib-cygwin.git), [RISC
 SEGGER Runtime Library | [Website](https://www.segger.com/products/development-tools/runtime-library/) | SEGGER commercial license | [SEGGER](https://www.segger.com/)
 SEGGER Floating Point Library | [Website](https://www.segger.com/products/development-tools/runtime-library/technology/floating-point-library/) | SEGGER commercial license | [SEGGER](https://www.segger.com/)
 Musl | [GitHub](https://github.com/riscv/riscv-musl)	| MIT | -
-
-# SDKs - Command Line Toolchains
-Name | Links | License | Maintainers
----- | ----- | ------- | -----------
-GCC Sourcery CodeBench Lite  |(Website)(https://www.mentor.com/embedded-software/toolchain-services/codebench-lite-downloads) | GPLv3 | [Mentor, a Siemens Business](www.mentor.com)
-LLVM Sourcery CodeBench Lite| (Website)(https://www.mentor.com/embedded-software/toolchain-services/codebench-lite-downloads) | Apache 2.0 | [Mentor, a Siemens Business](www.mentor.com)
 
 # Boot loaders and monitors
 
@@ -142,6 +137,7 @@ seL4 | [github](https://github.com/seL4/seL4), [seL4.systems](https://sel4.syste
 RT-Thread | [github](https://github.com/RT-Thread), [rt-thread.org](https://www.rt-thread.org/) | Apache 2.0  | RT-Thread
 PikeOS | [Press release](https://www.sysgo.com/news-events/news-articles/article/sysgo-adds-risc-v-support-to-its-pikeos-real-time-operating-system) | Proprietary | SYSGO
 VxWorks | [Press release](https://www.windriver.com/news/press/pr.html?ID=22570) | Proprietary | [Wind River](https://www.windriver.com)
+Embox | [github](https://github.com/embox/embox), [embox.rocks](http://www.embox.rocks/) |  | Embox
 
 ## BSD distributions
 
@@ -169,9 +165,9 @@ ibForth	| [Upstream](https://github.com/larsbrinkhoff/lbForth)	| GPLv3	| Lars Br
 Mecrisp-Quintis Forth kernel	| [Upstream](http://mecrisp.sourceforge.net/)	| ?	| Matthias Koch
 Mono | [Initial support in upstream](https://github.com/mono/mono/pull/11593) | MIT | [Alex Rønne Petersen](https://github.com/alexrp)
 Zen	| [Zen-Lang.org](https://www.zen-lang.org/)	| Commercial, AGPLv3 | [connectFree Corporation](http://connectfree.co.jp/)
+V8 (JS)	| [github(by RIOS/Futurewei)](https://github.com/v8-riscv/v8), [github(by PLCT)](https://github.com/isrc-cas/v8-riscv)	| BSD | [RIOS](http://rioslab.org/)/[Futurewei](https://www.futurewei.com/), [PLCT Lab](https://isrc.iscas.ac.cn)
 
-
-# IDEs
+# IDEs, SDKs and binary toolchain distributions
 
 Name | Links | License | Maintainers
 ---- | ----- | ------- | -----------
@@ -181,6 +177,9 @@ IAR Embedded Workbench | [Website](https://www.iar.com/iar-embedded-workbench/#!
 PlatformIO | [Website](https://platformio.org/), [IDE](https://platformio.org/platformio-ide), [Docs](https://docs.platformio.org/en/latest/) | Apache 2.0 | [PlatformIO](https://platformio.org/)
 Freedom Studio | [Website](https://www.sifive.com/boards) | EPL 1.0/various | [SiFive](https://www.sifive.com/)
 Ashling RiscFree<sup>TM</sup> IDE | [Website](https://www.ashling.com/ashling-riscv/)|Ashling commercial license|[Ashling](http://www.ashling.com/)
+SoftConsole | [Website](https://www.microsemi.com/product-directory/design-tools/4879-softconsole) | Various, see RN | [Microchip](https://www.microchip.com/)
+GCC Sourcery CodeBench Lite  |(Website)(https://www.mentor.com/embedded-software/toolchain-services/codebench-lite-downloads) | GPLv3 | [Mentor, a Siemens Business](www.mentor.com)
+LLVM Sourcery CodeBench Lite| (Website)(https://www.mentor.com/embedded-software/toolchain-services/codebench-lite-downloads) | Apache 2.0 | [Mentor, a Siemens Business](www.mentor.com)
 
 # Security
 
@@ -202,16 +201,9 @@ PQSLIB / PQSoC | [Website](https://pqsoc.com) | Proprietary | [PQShield](https:/
 Name | Links | License | Maintainers
 ---- | ----- | ------- | -----------
 TF Lite | [demo](https://github.com/antmicro/litex-vexriscv-tensorflow-lite-demo), [blog note](https://antmicro.com/blog/2019/12/tflite-in-zephyr-on-litex-vexriscv/) | Apache 2.0 |  [Antmicro](https://antmicro.com) / [Google TF Lite team](https://www.tensorflow.org/lite)
-
-# Board Support Packages (BSPs)
-
-Name | Links | License | Maintainers
----- | ----- | ------- | -----------
-RT-Thread/HIFIVE1 BSP | [github](https://github.com/RT-Thread/rt-thread/tree/master/bsp/hifive1) | Apache 2.0 | tanek
-
+ncnn | [GitHub](https://github.com/Tencent/ncnn) | BSD 3-clause |  [Tencent Open Source](https://opensource.tencent.com/en)
 
 # Help Wanted
 
-* V8
 * Node.js
 * Dart
