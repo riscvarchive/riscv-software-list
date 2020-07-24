@@ -201,13 +201,6 @@ Name | Links | License | Maintainers
 TF Lite | [demo](https://github.com/antmicro/litex-vexriscv-tensorflow-lite-demo), [blog note](https://antmicro.com/blog/2019/12/tflite-in-zephyr-on-litex-vexriscv/) | Apache 2.0 |  [Antmicro](https://antmicro.com) / [Google TF Lite team](https://www.tensorflow.org/lite)
 ncnn | [GitHub](https://github.com/Tencent/ncnn) | BSD 3-clause |  [Tencent Open Source](https://opensource.tencent.com/en)
 
-# Board Support Packages (BSPs)
-
-Name | Links | License | Maintainers
----- | ----- | ------- | -----------
-RT-Thread/HIFIVE1 BSP | [github](https://github.com/RT-Thread/rt-thread/tree/master/bsp/hifive1) | Apache 2.0 | tanek
-
-
 # Help Wanted
 
 * Node.js
