@@ -195,6 +195,7 @@ SecureRF | [Website](https://www.securerf.com/products/), [SDK](https://info.sec
 IntrinsicID | [Quiddikey](https://www.intrinsic-id.com/products/quiddikey/) | Proprietary | [Intrinsic ID](https://www.intrinsic-id.com/)
 Penglai Enclave | [Website](http://penglai-enclave.systems), [GitHub](https://github.com/Penglai-Enclave) | Mulan PSL v1 | [IPADS](https://ipads.se.sjtu.edu.cn/)
 PQSLIB / PQSoC | [Website](https://pqsoc.com) | Proprietary | [PQShield](https://pqshield.com)
+Ghidra | [Website](https://ghidra-sre.org/), [Github](https://github.com/NationalSecurityAgency/ghidra) | Apache 2.0 | [National Security Agency](https://www.nsa.gov/resources/everyone/ghidra/)
 
 # Machine Learning / AI
 
