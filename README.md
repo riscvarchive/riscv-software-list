@@ -21,7 +21,7 @@ to the list and fix inaccuracies by making a Pull Request against the [software 
 
 Name | Links | License | Maintainers
 ---- | ----- | ------- | -----------
-DBT-RISE-RISCV | [github](https://github.com/Minres/DBT-RISE-RISCV) | BSD 3-Clause | [MINRES Technologies](www.minres.com)
+DBT-RISE-RISCV | [github](https://github.com/Minres/DBT-RISE-RISCV) | BSD 3-Clause | [MINRES Technologies](https://www.minres.com/)
 FireSim | [website](https://fires.im), [mailing list](https://groups.google.com/forum/#!forum/firesim), [github](https://github.com/firesim/firesim), [ISCA 2018 Paper](https://sagark.org/assets/pubs/firesim-isca2018.pdf) | BSD | Sagar Karandikar, Howard Mao, Donggyu Kim, David Biancolin, Alon Amid, [Berkeley Architecture Research](https://bar.eecs.berkeley.edu)
 gem5 | [SW-dev thread](https://groups.google.com/a/groups.riscv.org/forum/#!topic/sw-dev/se0TVeaA_JI), [repository](https://gem5.googlesource.com/public/gem5/) | BSD-style | Alec Roelke (University of Virginia)
 Imperas | [website](http://www.imperas.com/riscv) | Proprietary, models available under Apache 2.0 | [Imperas](http://www.imperas.com/)
