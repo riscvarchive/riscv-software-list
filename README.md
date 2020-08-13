@@ -67,6 +67,7 @@ Ashling RiscFree Debugger | [Website](https://www.ashling.com/ashling-riscv/) | 
 Imperas Multi Processor Debugger | [Website](http://www.imperas.com/riscv#debug) | Imperas Commercial License | [Imperas](http://www.imperas.com/)
 TCF Debugger | [Website](https://projects.eclipse.org/projects/tools.cdt.tcf), [GitHub](https://github.com/eclipse/tcf.agent) | Eclipse Distribution License 1.0 (BSD) / Eclipse Public License 1.0 | Sanimir Agovic
 PlatformIO Unified Debugger | [Docs](https://docs.platformio.org/en/latest/plus/debugging.html) | Apache 2.0 | [PlatformIO](https://platformio.org/)
+Green Hills Probe | [Website](https://www.ghs.com/products/probe.html) | Proprietary | [Green Hills(https://www.ghs.com/)]
 
 # C compilers and libraries
 
@@ -81,6 +82,7 @@ Newlib	| [Upstream](http://cygwin.com/git/gitweb.cgi?p=newlib-cygwin.git), [RISC
 SEGGER Runtime Library | [Website](https://www.segger.com/products/development-tools/runtime-library/) | SEGGER commercial license | [SEGGER](https://www.segger.com/)
 SEGGER Floating Point Library | [Website](https://www.segger.com/products/development-tools/runtime-library/technology/floating-point-library/) | SEGGER commercial license | [SEGGER](https://www.segger.com/)
 Musl | [GitHub](https://github.com/riscv/riscv-musl)	| MIT | -
+Green Hills Optimizing C/C++ Compilers | [Website](https://www.ghs.com/products/compiler.html) | Proprietary | [Green Hills(https://www.ghs.com/)]
 
 # Boot loaders and monitors
 
@@ -180,6 +182,7 @@ Ashling RiscFree<sup>TM</sup> IDE | [Website](https://www.ashling.com/ashling-ri
 SoftConsole | [Website](https://www.microsemi.com/product-directory/design-tools/4879-softconsole) | Various, see RN | [Microchip](https://www.microchip.com/)
 GCC Sourcery CodeBench Lite | [Website](https://www.mentor.com/embedded-software/toolchain-services/codebench-lite-downloads) | GPLv3 | [Mentor, a Siemens Business](www.mentor.com)
 LLVM Sourcery CodeBench Lite | [Website](https://www.mentor.com/embedded-software/toolchain-services/codebench-lite-downloads) | Apache 2.0 | [Mentor, a Siemens Business](www.mentor.com)
+MULTI IDE | [Website](https://www.ghs.com/products/MULTI_IDE.html) | Proprietary | [Green Hills(https://www.ghs.com/)]
 
 # Security
 
