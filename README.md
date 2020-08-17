@@ -167,7 +167,8 @@ ibForth	| [Upstream](https://github.com/larsbrinkhoff/lbForth)	| GPLv3	| Lars Br
 Mecrisp-Quintis Forth kernel	| [Upstream](http://mecrisp.sourceforge.net/)	| ?	| Matthias Koch
 Mono | [Initial support in upstream](https://github.com/mono/mono/pull/11593) | MIT | [Alex Rønne Petersen](https://github.com/alexrp)
 Zen	| [Zen-Lang.org](https://www.zen-lang.org/)	| Commercial, AGPLv3 | [connectFree Corporation](http://connectfree.co.jp/)
-V8 (JS)	| [github(by RIOS/Futurewei)](https://github.com/v8-riscv/v8), [github(by PLCT)](https://github.com/isrc-cas/v8-riscv)	| BSD | [RIOS](http://rioslab.org/)/[Futurewei](https://www.futurewei.com/), [PLCT Lab](https://isrc.iscas.ac.cn)
+V8 (JS)	| [github](https://github.com/v8-riscv/v8)| BSD | [RIOS](http://rioslab.org/), [Futurewei](https://www.futurewei.com/), [PLCT Lab](https://isrc.iscas.ac.cn)
+Node.js | | MIT | [RIOS](http://rioslab.org/), [Futurewei](https://www.futurewei.com/), [PLCT Lab](https://isrc.iscas.ac.cn)
 
 # IDEs, SDKs and binary toolchain distributions
 
@@ -209,5 +210,4 @@ ncnn | [GitHub](https://github.com/Tencent/ncnn) | BSD 3-clause |  [Tencent Open
 
 # Help Wanted
 
-* Node.js
 * Dart
