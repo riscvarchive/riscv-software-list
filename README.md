@@ -14,6 +14,7 @@ to the list and fix inaccuracies by making a Pull Request against the [software 
 * [IDEs, SDKs and binary toolchain distributions](#ides-sdks-and-binary-toolchain-distributions)
 * [Security](#security)
 * [Machine Learning / AI](#machine-learning--ai)
+* [Configuration](#configuration)
 
 **We would like to enlist community help for the software ports in the [Help Wanted](#help-wanted) section.**
 
