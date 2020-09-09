@@ -169,7 +169,7 @@ Mecrisp-Quintis Forth kernel	| [Upstream](http://mecrisp.sourceforge.net/)	| ?	|
 Mono | [Initial support in upstream](https://github.com/mono/mono/pull/11593) | MIT | [Alex Rønne Petersen](https://github.com/alexrp)
 Zen	| [Zen-Lang.org](https://www.zen-lang.org/)	| Commercial, AGPLv3 | [connectFree Corporation](http://connectfree.co.jp/)
 V8 (JS)	| [github](https://github.com/v8-riscv/v8)| BSD | [RIOS](http://rioslab.org/), [Futurewei](https://www.futurewei.com/), [PLCT Lab](https://isrc.iscas.ac.cn)
-Node.js | | MIT | [RIOS](http://rioslab.org/), [Futurewei](https://www.futurewei.com/), [PLCT Lab](https://isrc.iscas.ac.cn)
+Node.js | [github](https://github.com/v8-riscv/node) | MIT | [RIOS](http://rioslab.org/), [Futurewei](https://www.futurewei.com/), [PLCT Lab](https://isrc.iscas.ac.cn)
 
 # IDEs, SDKs and binary toolchain distributions
 
