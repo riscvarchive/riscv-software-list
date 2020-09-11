@@ -15,6 +15,7 @@ to the list and fix inaccuracies by making a Pull Request against the [software 
 * [Security](#security)
 * [Machine Learning / AI](#machine-learning--ai)
 * [Configuration](#configuration)
+* [Verification Tools](#verification-tools)
 
 **We would like to enlist community help for the software ports in the [Help Wanted](#help-wanted) section.**
 
@@ -214,6 +215,13 @@ ncnn | [GitHub](https://github.com/Tencent/ncnn) | BSD 3-clause |  [Tencent Open
 Name | Links | License | Maintainers
 ---- | ----- | ------- | -----------
 RISC-V Explorer | [Website](https://info.bluespec.com/explorer-kit) | Proprietary | [BlueSpec](https://bluespec.com)
+
+# Verification Tools
+
+Name | Links | License | Maintainers
+---- | ----- | ------- | -----------
+OneSpin RISC-V Verification App | [Website](https://www.onespin.com/products/specialized-apps/risc-v-verification-app) | Proprietary | [OneSpin](https://www.onespin.com)
+OneSpin Floating-Point Unit App | [Website](https://www.onespin.com/fpu) | Proprietary | [OneSpin](https://www.onespin.com)
 
 # Help Wanted
 
