@@ -57,7 +57,6 @@ Cranelift | [GitHub](https://github.com/CraneStation/cranelift) | Apache 2.0 | [
 
 # Debugging
 
-
 Name | Links | License | Maintainers
 ---- | ----- | ------- | -----------
 GDB | [Upstream](https://sourceware.org/git/gitweb.cgi?p=binutils-gdb.git) | GPLv2 | Andrew Burgess (Embecosm), Palmer Dabbelt (Google)
@@ -222,6 +221,7 @@ Name | Links | License | Maintainers
 ---- | ----- | ------- | -----------
 OneSpin RISC-V Verification App | [Website](https://www.onespin.com/products/specialized-apps/risc-v-verification-app) | Proprietary | [OneSpin](https://www.onespin.com)
 OneSpin Floating-Point Unit App | [Website](https://www.onespin.com/fpu) | Proprietary | [OneSpin](https://www.onespin.com)
+RISCV-DV | [GitHub](https://github.com/google/riscv-dv) | Apache 2.0 | [CHIPS Alliance Tools/DV workgroup](https://chipsalliance.org/workgroups/)
 
 # Help Wanted
 
