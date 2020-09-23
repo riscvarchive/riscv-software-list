@@ -46,6 +46,7 @@ PQSE | [website](https://pqsoc.com/software/) | Proprietary | [PQShield](https:/
 riscv-rust | [website](https://takahirox.github.io/riscv-rust/index.html) [github](https://github.com/takahirox/riscv-rust) | MIT | Takahiro Aoyagi
 terminus | [github](https://github.com/shady831213/terminus) | MIT | [Yang Li](https://github.com/shady831213)
 Vulcan   | [github](https://github.com/vmmc2/Vulcan) | MIT | [Victor Miguel de Morais Costa](https://github.com/vmmc2)
+riscv-vm | [github](https://github.com/bit-hack/riscv-vm) | MIT | [Aidan Dodds](https://github.com/bit-hack)
 
 # Object toolchain
 
