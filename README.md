@@ -176,6 +176,7 @@ Node.js | [github](https://github.com/v8-riscv/node) | MIT | [RIOS](http://riosl
 Name | Links | License | Maintainers
 ---- | ----- | ------- | -----------
 GNU MCU Eclipse | [Website](https://gnu-mcu-eclipse.github.io), [Repositories](https://github.com/gnu-mcu-eclipse), [Binary distribution](https://github.com/gnu-mcu-eclipse/org.eclipse.epp.packages/releases/) |	EPL-1.0 / various	| Liviu Ionescu
+RT-Thread Studio | [Website](https://www.rt-thread.io/download.html?download=Studio)| EPL-1.0 / various| [RT-Thread](https://www.rt-thread.io/)
 AndeSight IDE | [website](http://www.andestech.com/en/products-solutions/andesight-ide/) | Andes comercial License | [Andes](http://www.andestech.com/) 
 Embedded Studio | [Website](https://www.segger.com/embeddedstudio), [RISC-V spec](https://www.segger.com/products/development-tools/embedded-studio/editions/risc-v/) | SEGGER commercial license, free for non-commercial use | [SEGGER](https://www.segger.com/)
 IAR Embedded Workbench | [Website](https://www.iar.com/iar-embedded-workbench/#!?architecture=RISC-V) | commercial | [IAR Systems](https://www.iar.com/)
