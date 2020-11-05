@@ -23,12 +23,12 @@ to the list and fix inaccuracies by making a Pull Request against the [software 
 
 Name | Links | License | Maintainers
 ---- | ----- | ------- | -----------
-riscvOVPsimPlus | [website](https://www.ovpworld.org/riscvOVPsimPlus/) | [proprietary](https://www.ovpworld.org/licenses/OVP_FP_LICENSE.pdf) | [Imperas](http://www.imperas.com/riscv)
+riscvOVPsimPlus | [website](https://www.ovpworld.org/riscvOVPsimPlus/) | [Proprietary, models available under Apache 2.0](https://www.ovpworld.org/licenses/OVP_FP_LICENSE.pdf) | [Imperas](http://www.imperas.com/riscv)
 DBT-RISE-RISCV | [github](https://github.com/Minres/DBT-RISE-RISCV) | BSD 3-Clause | [MINRES Technologies](https://www.minres.com/)
 FireSim | [website](https://fires.im), [mailing list](https://groups.google.com/forum/#!forum/firesim), [github](https://github.com/firesim/firesim), [ISCA 2018 Paper](https://sagark.org/assets/pubs/firesim-isca2018.pdf) | BSD | Sagar Karandikar, Howard Mao, Donggyu Kim, David Biancolin, Alon Amid, [Berkeley Architecture Research](https://bar.eecs.berkeley.edu)
 gem5 | [SW-dev thread](https://groups.google.com/a/groups.riscv.org/forum/#!topic/sw-dev/se0TVeaA_JI), [repository](https://gem5.googlesource.com/public/gem5/) | BSD-style | Alec Roelke (University of Virginia)
-Imperas | [website](http://www.imperas.com/riscv) | Proprietary, models available under Apache 2.0 | [Imperas](http://www.imperas.com/riscv)
-riscvOVPsim | [github](https://github.com/riscv-ovpsim/imperas-riscv-tests) | [proprietary](https://github.com/riscv-ovpsim/imperas-riscv-tests/blob/main/riscv-ovpsim/OVP_FP_LICENSE.pdf) | [Imperas](http://www.imperas.com/riscv)
+Imperas | [website](http://www.imperas.com/riscv) | [Proprietary, models available under Apache 2.0](https://www.ovpworld.org/licenses/OVP_FP_LICENSE.pdf) | [Imperas](http://www.imperas.com/riscv)
+riscvOVPsim | [github](https://github.com/riscv-ovpsim/imperas-riscv-tests) | [Proprietary, models available under Apache 2.0](https://www.ovpworld.org/licenses/OVP_FP_LICENSE.pdf) | [Imperas](http://www.imperas.com/riscv)
 OVPsim | [website](http://www.ovpworld.org/riscv) | Free for non commercial use, models available under Apache 2.0 | [Imperas](http://www.imperas.com/)
 jor1k | [website](http://s-macke.github.io/jor1k/demos/riscv.html), [github](https://github.com/s-macke/jor1k/) | BSD 2-Clause | Sebastian Macke
 Jupiter | [github](https://github.com/andrescv/Jupiter) | GPL-3.0 | Andrés Castellanos
@@ -176,7 +176,7 @@ Node.js | [github](https://github.com/v8-riscv/node) | MIT | [RIOS](http://riosl
 
 Name | Links | License | Maintainers
 ---- | ----- | ------- | -----------
-Imperas M*SDK | [Website](https://www.imperas.com/msdk-advanced-multicore-software-development-kit) | Proprietary | [Imperas](https://www.imperas.com/)
+Imperas M\*SDK | [Website](https://www.imperas.com/msdk-advanced-multicore-software-development-kit) | Proprietary | [Imperas](https://www.imperas.com/)
 GNU MCU Eclipse | [Website](https://gnu-mcu-eclipse.github.io), [Repositories](https://github.com/gnu-mcu-eclipse), [Binary distribution](https://github.com/gnu-mcu-eclipse/org.eclipse.epp.packages/releases/) |	EPL-1.0 / various	| Liviu Ionescu
 RT-Thread Studio | [Website](https://www.rt-thread.io/download.html?download=Studio)| EPL-1.0 / various| [RT-Thread](https://www.rt-thread.io/)
 AndeSight IDE | [website](http://www.andestech.com/en/products-solutions/andesight-ide/) | Andes comercial License | [Andes](http://www.andestech.com/) 
