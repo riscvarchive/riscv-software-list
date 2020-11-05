@@ -130,6 +130,7 @@ Ataraxia Linux | [github](https://github.com/ataraxialinux/ataraxia) |  | proton
 
 Name | Links | License | Maintainers
 ---- | ----- | ------- | -----------
+RT-Thread | [github](https://github.com/RT-Thread), [rt-thread.io](https://www.rt-thread.io/) | Apache 2.0  | [RT-Thread](https://www.rt-thread.io/)
 embOS | [Website](https://www.segger.com/embOS), [RISC-V port](https://www.segger.com/products/rtos/embos/supported-cores-compiler/sifive/risc-v/embos-riscv-es/) | SEGGER commercial license, free for non-commercial use | [SEGGER](https://www.segger.com/)
 RTEMS | [rtems.org](https://git.rtems.org/rtems/), [docs.rtems.org](https://docs.rtems.org/branches/master/user/bsps/bsps-riscv.html#riscv) | | Hesham Almatary
 FreeRTOS | [sourceforge](https://www.sourceforge.net/projects/freertos/), [freertos.org](https://www.freertos.org/Using-FreeRTOS-on-RISC-V.html) | MIT | AWS
@@ -139,7 +140,6 @@ NuttX | [bitbucket.org](https://bitbucket.org/nuttx/nuttx/src/master/), [nuttx.o
 Apache Mynewt | [riscv.org](https://riscv.org/wp-content/uploads/2016/07/Wed930_riscv_apachemynewt_v1.2.pdf) | Apache 2.0 | James Pace, Runtime
 OpenWrt | [github](https://git.openwrt.org/?p=openwrt/staging/wigyori.git;a=shortlog;h=refs/heads/kitchensink-201810), [binary repo](http://openwrt.uid0.hu) | | Zoltan Herpai
 seL4 | [github](https://github.com/seL4/seL4), [seL4.systems](https://sel4.systems/) | GPLv2 (kernel and proofs), various open-source licenses (userland)| [Trustworthy Systems group, Data61 CSIRO](https://ts.data61.csiro.au/)
-RT-Thread | [github](https://github.com/RT-Thread), [rt-thread.org](https://www.rt-thread.org/) | Apache 2.0  | RT-Thread
 PikeOS | [Press release](https://www.sysgo.com/news-events/news-articles/article/sysgo-adds-risc-v-support-to-its-pikeos-real-time-operating-system) | Proprietary | SYSGO
 VxWorks | [Press release](https://www.windriver.com/news/press/pr.html?ID=22570) | Proprietary | [Wind River](https://www.windriver.com)
 Embox | [github](https://github.com/embox/embox), [embox.rocks](http://www.embox.rocks/) |  | Embox
