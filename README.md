@@ -29,7 +29,7 @@ FireSim | [website](https://fires.im), [mailing list](https://groups.google.com/
 gem5 | [SW-dev thread](https://groups.google.com/a/groups.riscv.org/forum/#!topic/sw-dev/se0TVeaA_JI), [repository](https://gem5.googlesource.com/public/gem5/) | BSD-style | Alec Roelke (University of Virginia)
 Imperas | [website](http://www.imperas.com/riscv) | [Free for non commercial use, models available under Apache 2.0](https://www.ovpworld.org/licenses/OVP_FP_LICENSE.pdf) | [Imperas](http://www.imperas.com/riscv)
 riscvOVPsim | [github](https://github.com/riscv-ovpsim/imperas-riscv-tests) | [Free for non commercial use, models available under Apache 2.0](https://www.ovpworld.org/licenses/OVP_FP_LICENSE.pdf) | [Imperas](http://www.imperas.com/riscv)
-OVPsim | [website](http://www.ovpworld.org/riscv) | Free for non commercial use, models available under Apache 2.0 | [Imperas](http://www.imperas.com/)
+OVPsim | [website](http://www.ovpworld.org/riscv) | [Free for non commercial use, models available under Apache 2.0](https://www.ovpworld.org/licenses/OVP_FP_LICENSE.pdf) | [Imperas](http://www.imperas.com/)
 jor1k | [website](http://s-macke.github.io/jor1k/demos/riscv.html), [github](https://github.com/s-macke/jor1k/) | BSD 2-Clause | Sebastian Macke
 Jupiter | [github](https://github.com/andrescv/Jupiter) | GPL-3.0 | Andrés Castellanos
 MARSS-RISCV | [github](https://github.com/bucaps/marss-riscv) | MIT | Gaurav N Kothari, Parikshit P Sarnaik, Gokturk Yuksek (State University of New York at Binghamton)
