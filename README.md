@@ -143,6 +143,7 @@ RT-Thread | [github](https://github.com/RT-Thread), [rt-thread.org](https://www.
 PikeOS | [Press release](https://www.sysgo.com/news-events/news-articles/article/sysgo-adds-risc-v-support-to-its-pikeos-real-time-operating-system) | Proprietary | SYSGO
 VxWorks | [Press release](https://www.windriver.com/news/press/pr.html?ID=22570) | Proprietary | [Wind River](https://www.windriver.com)
 Embox | [github](https://github.com/embox/embox), [embox.rocks](http://www.embox.rocks/) |  | Embox
+Phoenix-RTOS | [github](https://github.com/phoenix-rtos/phoenix-rtos-doc/tree/master/quickstart/), [documentation](https://phoenix-rtos.com/documentation/) | BSD | Phoenix Systems
 
 ## BSD distributions
 
