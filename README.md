@@ -178,6 +178,7 @@ Node.js | [github](https://github.com/v8-riscv/node) | MIT | [RIOS](http://riosl
 
 Name | Links | License | Maintainers
 ---- | ----- | ------- | -----------
+riscv-gnu-toolchain | [Website](https://github.com/riscv/riscv-gnu-toolchain) | GPLv3 | RISC-V International
 Imperas M\*SDK | [Website](https://www.imperas.com/msdk-advanced-multicore-software-development-kit) | Proprietary | [Imperas](https://www.imperas.com/)
 GNU MCU Eclipse | [Website](https://gnu-mcu-eclipse.github.io), [Repositories](https://github.com/gnu-mcu-eclipse), [Binary distribution](https://github.com/gnu-mcu-eclipse/org.eclipse.epp.packages/releases/) |	EPL-1.0 / various	| Liviu Ionescu
 RT-Thread Studio | [Website](https://www.rt-thread.io/download.html?download=Studio)| EPL-1.0 / various| [RT-Thread](https://www.rt-thread.io/)
