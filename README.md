@@ -186,6 +186,7 @@ Embedded Studio | [Website](https://www.segger.com/embeddedstudio), [RISC-V spec
 IAR Embedded Workbench | [Website](https://www.iar.com/iar-embedded-workbench/#!?architecture=RISC-V) | commercial | [IAR Systems](https://www.iar.com/)
 PlatformIO | [Website](https://platformio.org/), [IDE](https://platformio.org/platformio-ide), [Docs](https://docs.platformio.org/en/latest/) | Apache 2.0 | [PlatformIO](https://platformio.org/)
 Freedom Studio | [Website](https://www.sifive.com/boards) | EPL 1.0/various | [SiFive](https://www.sifive.com/)
+Nuclei Studio | [Website](https://nucleisys.com/download.php) | EPL 1.0/various | [Nuclei System Technology](https://nucleisys.com/)
 Ashling RiscFree<sup>TM</sup> IDE | [Website](https://www.ashling.com/ashling-riscv/)|Ashling commercial license|[Ashling](http://www.ashling.com/)
 SoftConsole | [Website](https://www.microsemi.com/product-directory/design-tools/4879-softconsole) | Various, see RN | [Microchip](https://www.microchip.com/)
 GCC Sourcery CodeBench Lite | [Website](https://www.mentor.com/embedded-software/toolchain-services/codebench-lite-downloads) | GPLv3 | [Mentor, a Siemens Business](www.mentor.com)
