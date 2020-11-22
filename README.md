@@ -16,6 +16,7 @@ to the list and fix inaccuracies by making a Pull Request against the [software 
 * [Machine Learning / AI](#machine-learning--ai)
 * [Configuration](#configuration)
 * [Verification Tools](#verification-tools)
+* [Accelerated Libraries](#accelerated-libraries)
 
 **We would like to enlist community help for the software ports in the [Help Wanted](#help-wanted) section.**
 
@@ -229,6 +230,13 @@ OneSpin Floating-Point Unit App | [Website](https://www.onespin.com/fpu) | Propr
 RISCV-DV | [GitHub](https://github.com/google/riscv-dv) | Apache 2.0 | [CHIPS Alliance Tools/DV workgroup](https://chipsalliance.org/workgroups/)
 STING | [Website](https://www.valtrix.in/sting) | Proprietary | [Valtrix Systems](https://www.valtrix.in)
 ImperasDV SystemVerilog HW DV| [Website](https://imperas.com) | Proprietary | [Imperas](https://imperas.com/)
+
+# Accelerated Libraries
+
+Name | Links | License | Maintainers
+---- | ----- | ------- | -----------
+OpenBLAS | [GitHub](https://github.com/xianyi/OpenBLAS/tree/risc-v) | BSD 3-clause | [PerfXLab](https://www.perfxlab.com)
+
 
 # Help Wanted
 
