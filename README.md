@@ -235,7 +235,7 @@ ImperasDV SystemVerilog HW DV| [Website](https://imperas.com) | Proprietary | [I
 
 Name | Links | License | Maintainers
 ---- | ----- | ------- | -----------
-OpenBLAS | [GitHub](https://github.com/xianyi/OpenBLAS/tree/risc-v) | BSD 3-clause | [PerfXLab](https://www.perfxlab.com)
+OpenBLAS (Support RISC-V V extension 0.7.1) | [GitHub](https://github.com/xianyi/OpenBLAS/tree/risc-v) | BSD 3-clause | [PerfXLab](https://www.perfxlab.com)
 
 
 # Help Wanted
