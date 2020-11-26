@@ -179,6 +179,7 @@ MAPLE	| [Upstream](https://gitee.com/openarkcompiler-incubator/mapleall) | Mulan
 
 Name | Links | License | Maintainers
 ---- | ----- | ------- | -----------
+JianChi CDK | [website](https://occ.t-head.cn/activities/cdk?spm=a2cl5.14290816.0.0.d3ef180fHZTODv) | Alibaba commercial license | [T-Head (Alibaba group)](https://occ.t-head.cn/)
 Imperas M\*SDK | [Website](https://www.imperas.com/msdk-advanced-multicore-software-development-kit) | Proprietary | [Imperas](https://www.imperas.com/)
 GNU MCU Eclipse | [Website](https://gnu-mcu-eclipse.github.io), [Repositories](https://github.com/gnu-mcu-eclipse), [Binary distribution](https://github.com/gnu-mcu-eclipse/org.eclipse.epp.packages/releases/) |	EPL-1.0 / various	| Liviu Ionescu
 RT-Thread Studio | [Website](https://www.rt-thread.io/download.html?download=Studio)| EPL-1.0 / various| [RT-Thread](https://www.rt-thread.io/)
