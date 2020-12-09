@@ -16,6 +16,7 @@ to the list and fix inaccuracies by making a Pull Request against the [software 
 * [Machine Learning / AI](#machine-learning--ai)
 * [Configuration](#configuration)
 * [Verification Tools](#verification-tools)
+* [Accelerated Libraries](#accelerated-libraries)
 
 **We would like to enlist community help for the software ports in the [Help Wanted](#help-wanted) section.**
 
@@ -27,9 +28,7 @@ riscvOVPsimPlus | [website](https://www.ovpworld.org/riscvOVPsimPlus/) | [Propri
 DBT-RISE-RISCV | [github](https://github.com/Minres/DBT-RISE-RISCV) | BSD 3-Clause | [MINRES Technologies](https://www.minres.com/)
 FireSim | [website](https://fires.im), [mailing list](https://groups.google.com/forum/#!forum/firesim), [github](https://github.com/firesim/firesim), [ISCA 2018 Paper](https://sagark.org/assets/pubs/firesim-isca2018.pdf) | BSD | Sagar Karandikar, Howard Mao, Donggyu Kim, David Biancolin, Alon Amid, [Berkeley Architecture Research](https://bar.eecs.berkeley.edu)
 gem5 | [SW-dev thread](https://groups.google.com/a/groups.riscv.org/forum/#!topic/sw-dev/se0TVeaA_JI), [repository](https://gem5.googlesource.com/public/gem5/) | BSD-style | Alec Roelke (University of Virginia)
-Imperas | [website](http://www.imperas.com/riscv) | commercial | [Imperas](http://www.imperas.com/riscv)
-riscvOVPsim | [github](https://github.com/riscv-ovpsim/imperas-riscv-tests) | [Proprietary freeware](https://www.ovpworld.org/licenses/OVP_FP_LICENSE.pdf) | [Imperas](http://www.imperas.com/riscv)
-OVPsim | [website](http://www.ovpworld.org/riscv) | [Proprietary freeware](https://www.ovpworld.org/licenses/OVP_FP_LICENSE.pdf) | [Imperas](http://www.imperas.com/)
+OVPsim | [website](https://www.ovpworld.org/info_riscv), [github](https://github.com/riscv-ovpsim/imperas-riscv-tests) | [Proprietary](https://www.ovpworld.org/licenses/OVP_FP_LICENSE.pdf) (core simulation platform), Apache License (processor / platform model) | [Imperas](http://www.imperas.com/)
 jor1k | [website](http://s-macke.github.io/jor1k/demos/riscv.html), [github](https://github.com/s-macke/jor1k/) | BSD 2-Clause | Sebastian Macke
 Jupiter | [github](https://github.com/andrescv/Jupiter) | GPL-3.0 | Andrés Castellanos
 MARSS-RISCV | [github](https://github.com/bucaps/marss-riscv) | MIT | Gaurav N Kothari, Parikshit P Sarnaik, Gokturk Yuksek (State University of New York at Binghamton)
@@ -71,6 +70,7 @@ Imperas Multi Processor Debugger | [Website](http://www.imperas.com/riscv#debug)
 TCF Debugger | [Website](https://projects.eclipse.org/projects/tools.cdt.tcf), [GitHub](https://github.com/eclipse/tcf.agent) | Eclipse Distribution License 1.0 (BSD) / Eclipse Public License 1.0 | Sanimir Agovic
 PlatformIO Unified Debugger | [Docs](https://docs.platformio.org/en/latest/plus/debugging.html) | Apache 2.0 | [PlatformIO](https://platformio.org/)
 Green Hills Probe | [Website](https://www.ghs.com/products/probe.html) | Proprietary | [Green Hills](https://www.ghs.com/)
+GRMON | [Website](https://www.gaisler.com/index.php/products/debug-tools/grmon3) | Evaluation license, Proprietary | [Cobham Gaisler](https://www.gaisler.com)
 
 # C compilers and libraries
 
@@ -86,6 +86,7 @@ SEGGER Runtime Library | [Website](https://www.segger.com/products/development-t
 SEGGER Floating Point Library | [Website](https://www.segger.com/products/development-tools/runtime-library/technology/floating-point-library/) | SEGGER commercial license | [SEGGER](https://www.segger.com/)
 Musl | [GitHub](https://github.com/riscv/riscv-musl)	| MIT | -
 Green Hills Optimizing C/C++ Compilers | [Website](https://www.ghs.com/products/compiler.html) | Proprietary | [Green Hills](https://www.ghs.com/)
+OpenArkCompiler (MAPLE) | [Upstream](https://gitee.com/openarkcompiler-incubator/mapleall) | MulanPSL-2.0 | [Futurewei](https://www.futurewei.com/)
 
 # Boot loaders and monitors
 
@@ -103,6 +104,7 @@ Name | Links | License | Brief | Maintainers
 Xvisor | [Website](http://xhypervisor.org), [Upstream](https://github.com/xvisor/xvisor.git), [RISC-V Repo](https://github.com/avpatel/xvisor-next.git) | GPLv2 | Type-1 baremetal monolithic hypervisor | Anup Patel (Western Digital)
 KVM | [Website](https://www.linux-kvm.org), [RISC-V Repo](https://github.com/kvm-riscv/linux.git), [RISC-V Wiki](https://github.com/kvm-riscv/howto/wiki) | GPLv2 | Type-2 hypervisor | Anup Patel (Western Digital), Atish Patra (Western Digital)
 KVMTOOL | [Upstream](https://git.kernel.org/pub/scm/linux/kernel/git/will/kvmtool.git), [RISC-V Repo](https://github.com/kvm-riscv/kvmtool.git)  | GPLv2 | Userspace tool for the KVM hypervisor | Anup Patel (Western Digital), Atish Patra (Western Digital)
+| RVirt | [GitHub](https://github.com/mit-pdos/rvirt) |  Apache-2.0 | Trap-and-emulate hypervisor | Jonathan Behrens (MIT)
 
 # OS and OS kernels
 
@@ -162,6 +164,7 @@ Maxine VM (Java Virtual Machine)	| [Upstream](https://github.com/beehive-lab/Max
 Jikes RVM (Java Virtual Machine)	| [Upstream](https://github.com/JikesRVM/JikesRVM)	| Eclipse Public License (EPL)	| Martin Maas (University of California, Berkeley)
 OpenJDK/HotSpot (Java Virtual Machine)	| ?	| ?	| Alexey Baturo, Michael Knysnek, Martin Maas
 OpenJDK/OpenJ9 (Java Virtual Machine)	| [Upstream](https://github.com/eclipse/openj9)	| Eclipse Public License 2.0 (EPLv2) with ClassPath Exception & Apache 2.0	| [Cheng Jin](https://github.com/ChengJin01)
+BishengJDK/HotSpot (Java Virtual Machine)	| [Upstream](https://gitee.com/openeuler/bishengjdk-11/tree/risc-v)	| GPLv2 with Classpath Exception | [Yadong Wang](mailto:yadonn.wang@huawei.com)
 Free Pascal	| [Upstream](https://svn.freepascal.org/cgi-bin/viewvc.cgi/trunk/)	| ?	| Jeppe Johansen and others
 Nim	| [Upstream](https://nim-lang.org/)	| MIT	| Andreas Rumpf and others
 Ada (GNAT)	| [Upstream](https://gcc.gnu.org/viewcvs/gcc/trunk/)	| GPLv3 with linking exception	| [AdaCore](http://adacore.com)
@@ -173,12 +176,14 @@ Mono | [Initial support in upstream](https://github.com/mono/mono/pull/11593) | 
 Zen	| [Zen-Lang.org](https://www.zen-lang.org/)	| Commercial, AGPLv3 | [connectFree Corporation](http://connectfree.co.jp/)
 V8 (JS)	| [github](https://github.com/v8-riscv/v8)| BSD | [RIOS](http://rioslab.org/), [Futurewei](https://www.futurewei.com/), [PLCT Lab](https://isrc.iscas.ac.cn)
 Node.js | [github](https://github.com/v8-riscv/node) | MIT | [RIOS](http://rioslab.org/), [Futurewei](https://www.futurewei.com/), [PLCT Lab](https://isrc.iscas.ac.cn)
+OpenArkCompiler (MAPLE) | [Upstream](https://gitee.com/openarkcompiler-incubator/mapleall) | MulanPSL-2.0 | [Futurewei](https://www.futurewei.com/)
 
 # IDEs, SDKs and binary toolchain distributions
 
 Name | Links | License | Maintainers
 ---- | ----- | ------- | -----------
 riscv-gnu-toolchain | [Website](https://github.com/riscv/riscv-gnu-toolchain) | GPLv3 | RISC-V International
+JianChi CDK | [website](https://occ.t-head.cn/activities/cdk?spm=a2cl5.14290816.0.0.d3ef180fHZTODv) | Alibaba commercial license | [T-Head (Alibaba group)](https://occ.t-head.cn/)
 Imperas M\*SDK | [Website](https://www.imperas.com/msdk-advanced-multicore-software-development-kit) | Proprietary | [Imperas](https://www.imperas.com/)
 GNU MCU Eclipse | [Website](https://gnu-mcu-eclipse.github.io), [Repositories](https://github.com/gnu-mcu-eclipse), [Binary distribution](https://github.com/gnu-mcu-eclipse/org.eclipse.epp.packages/releases/) |	EPL-1.0 / various	| Liviu Ionescu
 RT-Thread Studio | [Website](https://www.rt-thread.io/download.html?download=Studio)| EPL-1.0 / various| [RT-Thread](https://www.rt-thread.io/)
@@ -187,6 +192,7 @@ Embedded Studio | [Website](https://www.segger.com/embeddedstudio), [RISC-V spec
 IAR Embedded Workbench | [Website](https://www.iar.com/iar-embedded-workbench/#!?architecture=RISC-V) | commercial | [IAR Systems](https://www.iar.com/)
 PlatformIO | [Website](https://platformio.org/), [IDE](https://platformio.org/platformio-ide), [Docs](https://docs.platformio.org/en/latest/) | Apache 2.0 | [PlatformIO](https://platformio.org/)
 Freedom Studio | [Website](https://www.sifive.com/boards) | EPL 1.0/various | [SiFive](https://www.sifive.com/)
+Nuclei Studio | [Website](https://nucleisys.com/download.php) | EPL 1.0/various | [Nuclei System Technology](https://nucleisys.com/)
 Ashling RiscFree<sup>TM</sup> IDE | [Website](https://www.ashling.com/ashling-riscv/)|Ashling commercial license|[Ashling](http://www.ashling.com/)
 SoftConsole | [Website](https://www.microsemi.com/product-directory/design-tools/4879-softconsole) | Various, see RN | [Microchip](https://www.microchip.com/)
 GCC Sourcery CodeBench Lite | [Website](https://www.mentor.com/embedded-software/toolchain-services/codebench-lite-downloads) | GPLv3 | [Mentor, a Siemens Business](www.mentor.com)
@@ -207,6 +213,7 @@ SecureRF | [Website](https://www.securerf.com/products/), [SDK](https://info.sec
 IntrinsicID | [Quiddikey](https://www.intrinsic-id.com/products/quiddikey/) | Proprietary | [Intrinsic ID](https://www.intrinsic-id.com/)
 Penglai Enclave | [Website](http://penglai-enclave.systems), [GitHub](https://github.com/Penglai-Enclave) | Mulan PSL v1 | [IPADS](https://ipads.se.sjtu.edu.cn/)
 PQSLIB / PQSoC | [Website](https://pqsoc.com) | Proprietary | [PQShield](https://pqshield.com)
+Ghidra | [Website](https://ghidra-sre.org/), [Github](https://github.com/NationalSecurityAgency/ghidra) | Apache 2.0 | [National Security Agency](https://www.nsa.gov/resources/everyone/ghidra/)
 
 # Machine Learning / AI
 
@@ -230,6 +237,13 @@ OneSpin Floating-Point Unit App | [Website](https://www.onespin.com/fpu) | Propr
 RISCV-DV | [GitHub](https://github.com/google/riscv-dv) | Apache 2.0 | [CHIPS Alliance Tools/DV workgroup](https://chipsalliance.org/workgroups/)
 STING | [Website](https://www.valtrix.in/sting) | Proprietary | [Valtrix Systems](https://www.valtrix.in)
 ImperasDV SystemVerilog HW DV| [Website](https://imperas.com) | Proprietary | [Imperas](https://imperas.com/)
+
+# Accelerated Libraries
+
+Name | Links | License | Maintainers
+---- | ----- | ------- | -----------
+OpenBLAS (Support RISC-V V extension 0.7.1) | [GitHub](https://github.com/xianyi/OpenBLAS/tree/risc-v) | BSD 3-clause | [PerfXLab](https://www.perfxlab.com)
+
 
 # Help Wanted
 
