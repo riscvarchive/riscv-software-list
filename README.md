@@ -182,6 +182,7 @@ OpenArkCompiler (MAPLE) | [Upstream](https://gitee.com/openarkcompiler-incubator
 
 Name | Links | License | Maintainers
 ---- | ----- | ------- | -----------
+riscv-gnu-toolchain | [Website](https://github.com/riscv/riscv-gnu-toolchain) | GPLv3 | RISC-V International
 JianChi CDK | [website](https://occ.t-head.cn/activities/cdk?spm=a2cl5.14290816.0.0.d3ef180fHZTODv) | Alibaba commercial license | [T-Head (Alibaba group)](https://occ.t-head.cn/)
 Imperas M\*SDK | [Website](https://www.imperas.com/msdk-advanced-multicore-software-development-kit) | Proprietary | [Imperas](https://www.imperas.com/)
 GNU MCU Eclipse | [Website](https://gnu-mcu-eclipse.github.io), [Repositories](https://github.com/gnu-mcu-eclipse), [Binary distribution](https://github.com/gnu-mcu-eclipse/org.eclipse.epp.packages/releases/) |	EPL-1.0 / various	| Liviu Ionescu
