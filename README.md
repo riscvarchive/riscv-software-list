@@ -106,6 +106,7 @@ Name | Links | License | Brief | Maintainers
 Xvisor | [Website](http://xhypervisor.org), [Upstream](https://github.com/xvisor/xvisor.git), [RISC-V Repo](https://github.com/avpatel/xvisor-next.git) | GPLv2 | Type-1 baremetal monolithic hypervisor | Anup Patel (Western Digital)
 KVM | [Website](https://www.linux-kvm.org), [RISC-V Repo](https://github.com/kvm-riscv/linux.git), [RISC-V Wiki](https://github.com/kvm-riscv/howto/wiki) | GPLv2 | Type-2 hypervisor | Anup Patel (Western Digital), Atish Patra (Western Digital)
 KVMTOOL | [Upstream](https://git.kernel.org/pub/scm/linux/kernel/git/will/kvmtool.git), [RISC-V Repo](https://github.com/kvm-riscv/kvmtool.git)  | GPLv2 | Userspace tool for the KVM hypervisor | Anup Patel (Western Digital), Atish Patra (Western Digital)
+| RVirt | [GitHub](https://github.com/mit-pdos/rvirt) |  Apache-2.0 | Trap-and-emulate hypervisor | Jonathan Behrens (MIT)
 
 # OS and OS kernels
 
