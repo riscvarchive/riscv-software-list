@@ -177,6 +177,7 @@ Zen	| [Zen-Lang.org](https://www.zen-lang.org/)	| Commercial, AGPLv3 | [connectF
 V8 (JS)	| [github](https://github.com/v8-riscv/v8)| BSD | [RIOS](http://rioslab.org/), [Futurewei](https://www.futurewei.com/), [PLCT Lab](https://isrc.iscas.ac.cn)
 Node.js | [github](https://github.com/v8-riscv/node) | MIT | [RIOS](http://rioslab.org/), [Futurewei](https://www.futurewei.com/), [PLCT Lab](https://isrc.iscas.ac.cn)
 OpenArkCompiler (MAPLE) | [Upstream](https://gitee.com/openarkcompiler-incubator/mapleall) | MulanPSL-2.0 | [Futurewei](https://www.futurewei.com/)
+Eclipse OMR | [github](https://github.com/eclipse/omr) | Eclipse Public License 2.0 (EPLv2) with ClassPath and Assembly Exception & Apache 2.0 | [Eclipse OMR Project](https://www.eclipse.org/omr/)
 
 # IDEs, SDKs and binary toolchain distributions
 
