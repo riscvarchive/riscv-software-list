@@ -47,7 +47,7 @@ riscv-rust | [website](https://takahirox.github.io/riscv-rust/index.html) [githu
 terminus | [github](https://github.com/shady831213/terminus) | MIT | [Yang Li](https://github.com/shady831213)
 Vulcan   | [github](https://github.com/vmmc2/Vulcan) | MIT | [Victor Miguel de Morais Costa](https://github.com/vmmc2)
 riscv-vm | [github](https://github.com/bit-hack/riscv-vm) | MIT | [Aidan Dodds](https://github.com/bit-hack)
-emulsiV | [Working Instance](https://guillaume-savaton-eseo.github.io/emulsiV/), [GitHub](https://github.com/Guillaume-Savaton-ESEO/emulsiV) | Open ([MPL2.0](https://github.com/Guillaume-Savaton-ESEO/emulsiV/blob/master/LICENSE)) | Guillaume Savaton
+EmulsiV | [Working Instance](https://guillaume-savaton-eseo.github.io/emulsiV/), [GitHub](https://github.com/Guillaume-Savaton-ESEO/emulsiV) | Open ([MPL2.0](https://github.com/Guillaume-Savaton-ESEO/emulsiV/blob/master/LICENSE)) | Guillaume Savaton
 
 # Object toolchain
 
