@@ -128,6 +128,7 @@ openSUSE | [opensuse.org](https://build.opensuse.org/project/show/openSUSE:Facto
 Gentoo | [github](https://github.com/palmer-dabbelt/riscv-gentoo) |  | Palmer Dabbelt (University of California, Berkeley)
 Parabola GNU/Linux-libre | [github](https://github.com/oaken-source/parabola-riscv64-bootstrap), [parabola.nu](https://git.parabola.nu/abslibre.git) | | Andreas Grapentin (University of Potsdam, HPI)
 Ataraxia Linux | [github](https://github.com/ataraxialinux/ataraxia) |  | protonesso
+slarm64 | [gitlab](https://gitlab.com/sndwvs/slarm64-current), [slarm64.org](http://dl.slarm64.org/slarm64/slarm64-riscv64-current/), [support](https://www.linuxquestions.org/questions/slackware-arm-108/slarm64-aarch64-unofficial-slackware-4175613287/)|  | mara
 
 ## Real-time Operating Systems
 
