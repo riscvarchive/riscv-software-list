@@ -39,13 +39,13 @@ Ripes | [github](https://github.com/mortbopet/Ripes)| MIT | Morten Borup Peterse
 RISC-V Virtual Prototype | [website](http://www.systemc-verification.org/riscv-vp), [github](https://github.com/agra-uni-bremen/riscv-vp) | MIT | Vladimir Herdt (University of Bremen, [AGRA](http://www.informatik.uni-bremen.de/agra/eng/index.php))
 TinyEMU | [website](http://bellard.org/riscvemu/) | MIT | Fabrice Bellard
 Spike | [github](https://github.com/riscv/riscv-isa-sim) | BSD 3-clause | Andrew Waterman & Yunsup Lee (SiFive)
-Swerv-ISS  | [github](https://github.com/westerndigitalcorporation/swerv-ISS) | GPL - 3 | Joseph Rahmeh (Western Digital) 
-VLAB  | [VLAB Works](http://vlabworks.com/) | Proprietary | [ASTC](http://astc-design.com/)
+Swerv-ISS | [github](https://github.com/westerndigitalcorporation/swerv-ISS) | GPL - 3 | Joseph Rahmeh (Western Digital) 
+VLAB | [VLAB Works](http://vlabworks.com/) | Proprietary | [ASTC](http://astc-design.com/)
 WebRISC-V | [github](https://github.com/Mariotti94/WebRISC-V)| BSD 3-clause | Gianfranco Mariotti, Roberto Giorgi  (University of Siena)
 PQSE | [website](https://pqsoc.com/software/) | Proprietary | [PQShield](https://pqshield.com)
 riscv-rust | [website](https://takahirox.github.io/riscv-rust/index.html) [github](https://github.com/takahirox/riscv-rust) | MIT | Takahiro Aoyagi
 terminus | [github](https://github.com/shady831213/terminus) | MIT | [Yang Li](https://github.com/shady831213)
-Vulcan   | [github](https://github.com/vmmc2/Vulcan) | MIT | [Victor Miguel de Morais Costa](https://github.com/vmmc2)
+Vulcan | [github](https://github.com/vmmc2/Vulcan) | MIT | [Victor Miguel de Morais Costa](https://github.com/vmmc2)
 riscv-vm | [github](https://github.com/bit-hack/riscv-vm) | MIT | [Aidan Dodds](https://github.com/bit-hack)
 EmulsiV | [Working Instance](https://guillaume-savaton-eseo.github.io/emulsiV/), [GitHub](https://github.com/Guillaume-Savaton-ESEO/emulsiV) | Open ([MPL2.0](https://github.com/Guillaume-Savaton-ESEO/emulsiV/blob/master/LICENSE)) | Guillaume Savaton
 
@@ -79,10 +79,10 @@ Name | Links | License | Maintainers
 ---- | ----- | ------- | -----------
 GCC	| [Upstream](https://gcc.gnu.org/git/gitweb.cgi?p=gcc.git), [RISC-V repository](https://github.com/riscv/riscv-gcc) | GPLv3	| Andrew Waterman (SiFive), Palmer Dabbelt (Google), Jim Wilson (SiFive), Kito Cheng (SiFive)
 GNU MCU Eclipse RISC-V Embedded GCC (riscv-non-embed-gcc)	| [Web](https://gnu-mcu-eclipse.github.io/toolchain/riscv/), [Repository](https://github.com/gnu-mcu-eclipse/riscv-none-gcc), [Build](https://github.com/gnu-mcu-eclipse/riscv-none-gcc-build), [Binary package installer](https://www.npmjs.com/package/@gnu-mcu-eclipse/riscv-none-gcc)	| Eclipse Public License |	Liviu lonescu
-Clang/LLVM	| [Upstream](https://github.com/llvm/llvm-project)	| Apache 2.0	| Alex Bradbury (lowRISC)
-CompCert	| [Upstream](https://github.com/AbsInt/CompCert.git)	| INRIA Non-Commercial License Agreement	| Xavier Leroy
+Clang/LLVM | [Upstream](https://github.com/llvm/llvm-project)	| Apache 2.0	| Alex Bradbury (lowRISC)
+CompCert | [Upstream](https://github.com/AbsInt/CompCert.git)	| INRIA Non-Commercial License Agreement	| Xavier Leroy
 Glibc	| [Upstream](https://sourceware.org/git/?p=glibc.git), [RISC-V repository](https://github.com/riscv/riscv-glibc) |	GPLv2 |	Palmer Dabbelt (Google), Andrew Waterman (SiFive), DJ Delorie (Red Hat), Darius Rad(Bluespec)
-Newlib	| [Upstream](http://cygwin.com/git/gitweb.cgi?p=newlib-cygwin.git), [RISC-V repository](https://github.com/riscv/riscv-newlib)	| GPLv2	| Kito Cheng (SiFive)
+Newlib | [Upstream](http://cygwin.com/git/gitweb.cgi?p=newlib-cygwin.git), [RISC-V repository](https://github.com/riscv/riscv-newlib)	| GPLv2	| Kito Cheng (SiFive)
 SEGGER Runtime Library | [Website](https://www.segger.com/products/development-tools/runtime-library/) | SEGGER commercial license | [SEGGER](https://www.segger.com/)
 SEGGER Floating Point Library | [Website](https://www.segger.com/products/development-tools/runtime-library/technology/floating-point-library/) | SEGGER commercial license | [SEGGER](https://www.segger.com/)
 Musl | [GitHub](https://github.com/riscv/riscv-musl)	| MIT | -
@@ -105,7 +105,7 @@ Name | Links | License | Brief | Maintainers
 Xvisor | [Website](http://xhypervisor.org), [Upstream](https://github.com/xvisor/xvisor.git), [RISC-V Repo](https://github.com/avpatel/xvisor-next.git) | GPLv2 | Type-1 baremetal monolithic hypervisor | Anup Patel (Western Digital)
 KVM | [Website](https://www.linux-kvm.org), [RISC-V Repo](https://github.com/kvm-riscv/linux.git), [RISC-V Wiki](https://github.com/kvm-riscv/howto/wiki) | GPLv2 | Type-2 hypervisor | Anup Patel (Western Digital), Atish Patra (Western Digital)
 KVMTOOL | [Upstream](https://git.kernel.org/pub/scm/linux/kernel/git/will/kvmtool.git), [RISC-V Repo](https://github.com/kvm-riscv/kvmtool.git)  | GPLv2 | Userspace tool for the KVM hypervisor | Anup Patel (Western Digital), Atish Patra (Western Digital)
-| RVirt | [GitHub](https://github.com/mit-pdos/rvirt) |  Apache-2.0 | Trap-and-emulate hypervisor | Jonathan Behrens (MIT)
+RVirt | [GitHub](https://github.com/mit-pdos/rvirt) |  Apache-2.0 | Trap-and-emulate hypervisor | Jonathan Behrens (MIT)
 
 # OS and OS kernels
 
@@ -121,7 +121,7 @@ Buildroot | [busybox.net](https://git.busybox.net/buildroot/) |  | Mark Corbin (
 
 Name | Links | License | Maintainers
 ---- | ----- | ------- | -----------
-Fedora	| [fedoraproject.org](http://fedoraproject.org/wiki/Architectures/RISC-V) | | Richard WM Jones, Stefan O’Rear, David Abdurachmanov
+Fedora | [fedoraproject.org](http://fedoraproject.org/wiki/Architectures/RISC-V) | | Richard WM Jones, Stefan O’Rear, David Abdurachmanov
 Debian | [debian wiki](https://wiki.debian.org/RISC-V), [mit.edu](http://riscv.mit.edu/), [riscv.org](https://content.riscv.org/wp-content/uploads/2016/07/Wed1115_Working_Towards_a_Debian_RISC-V_Port.pdf), [Annc](https://people.debian.org/~mafm/posts/2017/20170422_debian-gnulinux-port-for-risc-v-64-bit-riscv64/) | | Manuel A. Fernandez Montecelo
 OpenMandriva | [openmandriva.org](http://abf-downloads.openmandriva.org/cooker/repository/riscv64/), [openmandriva.org](http://openmandriva.org/) | | Bernhard "Bero" Rosenkränzer
 openSUSE | [opensuse.org](https://build.opensuse.org/project/show/openSUSE:Factory:RISCV) |  | Andreas Schwab (SUSE)
