@@ -128,6 +128,7 @@ openSUSE | [opensuse.org](https://build.opensuse.org/project/show/openSUSE:Facto
 Gentoo | [github](https://github.com/palmer-dabbelt/riscv-gentoo) |  | Palmer Dabbelt (University of California, Berkeley)
 Parabola GNU/Linux-libre | [github](https://github.com/oaken-source/parabola-riscv64-bootstrap), [parabola.nu](https://git.parabola.nu/abslibre.git) | | Andreas Grapentin (University of Potsdam, HPI)
 Ataraxia Linux | [github](https://github.com/ataraxialinux/ataraxia) |  | protonesso
+Slackware Linux | [github](https://github.com/fede2cr/slackware_riscv/) |  | Álvaro Figueroa (of Greencore Solutions)
 
 ## Real-time Operating Systems
 
