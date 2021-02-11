@@ -88,6 +88,7 @@ SEGGER Floating Point Library | [Website](https://www.segger.com/products/develo
 Musl | [GitHub](https://github.com/riscv/riscv-musl)	| MIT | -
 Green Hills Optimizing C/C++ Compilers | [Website](https://www.ghs.com/products/compiler.html) | Proprietary | [Green Hills](https://www.ghs.com/)
 OpenArkCompiler (MAPLE) | [Upstream](https://gitee.com/openarkcompiler-incubator/mapleall) | MulanPSL-2.0 | [Futurewei](https://www.futurewei.com/)
+Andes MCUlib | [website](https://www.andestech.com/en/products-solutions/andesight-ide/) | Andes commercial license | [Andes](https://www.andestech.com/)
 
 # Boot loaders and monitors
 
@@ -191,7 +192,7 @@ JianChi CDK | [website](https://occ.t-head.cn/activities/cdk?spm=a2cl5.14290816.
 Imperas M\*SDK | [Website](https://www.imperas.com/msdk-advanced-multicore-software-development-kit) | Proprietary | [Imperas](https://www.imperas.com/)
 GNU MCU Eclipse | [Website](https://gnu-mcu-eclipse.github.io), [Repositories](https://github.com/gnu-mcu-eclipse), [Binary distribution](https://github.com/gnu-mcu-eclipse/org.eclipse.epp.packages/releases/) |	EPL-1.0 / various	| Liviu Ionescu
 RT-Thread Studio | [Website](https://www.rt-thread.io/download.html?download=Studio)| EPL-1.0 / various| [RT-Thread](https://www.rt-thread.io/)
-AndeSight IDE | [website](http://www.andestech.com/en/products-solutions/andesight-ide/) | Andes comercial License | [Andes](http://www.andestech.com/) 
+AndeSight IDE | [website](https://www.andestech.com/en/products-solutions/andesight-ide/) | Andes comercial License | [Andes](https://www.andestech.com/) 
 Embedded Studio | [Website](https://www.segger.com/embeddedstudio), [RISC-V spec](https://www.segger.com/products/development-tools/embedded-studio/editions/risc-v/) | SEGGER commercial license, free for non-commercial use | [SEGGER](https://www.segger.com/)
 IAR Embedded Workbench | [Website](https://www.iar.com/iar-embedded-workbench/#!?architecture=RISC-V) | commercial | [IAR Systems](https://www.iar.com/)
 PlatformIO | [Website](https://platformio.org/), [IDE](https://platformio.org/platformio-ide), [Docs](https://docs.platformio.org/en/latest/) | Apache 2.0 | [PlatformIO](https://platformio.org/)
@@ -225,6 +226,7 @@ Name | Links | License | Maintainers
 ---- | ----- | ------- | -----------
 TF Lite | [demo](https://github.com/antmicro/litex-vexriscv-tensorflow-lite-demo), [blog note](https://antmicro.com/blog/2019/12/tflite-in-zephyr-on-litex-vexriscv/) | Apache 2.0 |  [Antmicro](https://antmicro.com) / [Google TF Lite team](https://www.tensorflow.org/lite)
 ncnn | [GitHub](https://github.com/Tencent/ncnn) | BSD 3-clause |  [Tencent Open Source](https://opensource.tencent.com/en)
+Andes NN Library | [website](https://www.andestech.com/en/products-solutions/andesight-ide/) | Andes commercial license | [Andes](https://www.andestech.com/)
 
 # Configuration
 
@@ -247,6 +249,8 @@ ImperasDV SystemVerilog HW DV| [Website](https://imperas.com) | Proprietary | [I
 Name | Links | License | Maintainers
 ---- | ----- | ------- | -----------
 OpenBLAS (Support RISC-V V extension 0.7.1) | [GitHub](https://github.com/xianyi/OpenBLAS/tree/risc-v) | BSD 3-clause | [PerfXLab](https://www.perfxlab.com)
+Andes DSP Library | [website](https://www.andestech.com/en/products-solutions/andesight-ide/) | Andes commercial license | [Andes](https://www.andestech.com/)
+Andes Vector Library | [website](https://www.andestech.com/en/products-solutions/andesight-ide/) | Andes commercial license | [Andes](https://www.andestech.com/)
 
 
 # Help Wanted
