@@ -99,6 +99,7 @@ U-Boot | [Upstream](https://gitlab.denx.de/u-boot/u-boot) | GPLv2 | Rick Chen (A
 Proxy Kernel/BBL | [GitHub](https://github.com/riscv/riscv-pk) | BSD 3-clause | SiFive
 OpenSBI | [GitHub](https://github.com/riscv/opensbi) | BSD 2-clause | Anup Patel (Western Digital), Atish Patra (Western Digital)
 RustSBI | [GitHub](https://github.com/luojia65/rustsbi) | Mulan PSL v2 | Luo Jia (Huazhong Univ. of Sci. & Tech.)
+UEFI edk2 | [GitHub](https://github.com/riscv/riscv-uefi-edk2-docs) | BSD 2-Clause Patent | Abner Chang (Hewlett Packard Enterprise), Daniel Schaefer (Hewlett Packard Enterprise)
 
 # Hypervisors and related tools
 
