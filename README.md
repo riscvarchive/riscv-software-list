@@ -244,6 +244,7 @@ OneSpin Floating-Point Unit App | [Website](https://www.onespin.com/fpu) | Propr
 RISCV-DV | [GitHub](https://github.com/google/riscv-dv) | Apache 2.0 | [CHIPS Alliance Tools/DV workgroup](https://chipsalliance.org/workgroups/)
 STING | [Website](https://www.valtrix.in/sting) | Proprietary | [Valtrix Systems](https://www.valtrix.in)
 ImperasDV SystemVerilog HW DV| [Website](https://imperas.com) | Proprietary | [Imperas](https://imperas.com/)
+Axiomise formalISA app | [Website](https://www.axiomise.com/riscv-formal-app/) | Proprietary | [Axiomise](https://www.axiomise.com)
 
 # Accelerated Libraries
 
