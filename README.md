@@ -132,6 +132,7 @@ Gentoo | [github](https://github.com/palmer-dabbelt/riscv-gentoo) |  | Palmer Da
 Parabola GNU/Linux-libre | [github](https://github.com/oaken-source/parabola-riscv64-bootstrap), [parabola.nu](https://git.parabola.nu/abslibre.git) | | Andreas Grapentin (University of Potsdam, HPI)
 Ataraxia Linux | [github](https://github.com/ataraxialinux/ataraxia) |  | protonesso
 Slackware Linux | [github](https://github.com/fede2cr/slackware_riscv/) |  | Álvaro Figueroa (of Greencore Solutions)
+Ubuntu | [ubuntu.com](https://wiki.ubuntu.com/RISC-V) | | [xnox](https://launchpad.net/~xnox)
 
 ## Real-time Operating Systems
 
