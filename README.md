@@ -1,3 +1,5 @@
+# THIS REPO IS NOW ARCHIVED. If you would like to make an addition or change, please contact content@riscv.org
+
 # RISC-V Software Ecosystem Overview
 
 This document captures the status of the RISC-V Software Ecosystem. Please add
